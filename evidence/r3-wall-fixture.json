@@ -1,0 +1,249 @@
+{
+  "ts": "2026-10-20T14:57:10.431Z",
+  "fixture": "Freeze AI and place player/one existing enemy on opposite sides of existing brick (4,6). No tile/HP mutation; real keyboard move/fire. Supplement only, not natural play.",
+  "samples": [
+    {
+      "info": {
+        "state": "playing",
+        "phase": "fight",
+        "levelName": "歼灭战",
+        "score": 0,
+        "kills": 0,
+        "lives": 2,
+        "bricksBroken": 0,
+        "playerHp": 100,
+        "playerDead": false,
+        "enemies": 4,
+        "toSpawn": 0,
+        "totalEnemies": 4,
+        "shotsFired": 1,
+        "hitsOnEnemies": 0,
+        "hitsOnPlayer": 0,
+        "playerPos": [
+          14.85,
+          26
+        ],
+        "audioUnlocked": true,
+        "audioRunning": "running",
+        "muted": false,
+        "board": 0
+      },
+      "tile": {
+        "type": "B",
+        "hp": 1
+      },
+      "target": 24
+    },
+    {
+      "info": {
+        "state": "playing",
+        "phase": "fight",
+        "levelName": "歼灭战",
+        "score": 5,
+        "kills": 0,
+        "lives": 2,
+        "bricksBroken": 1,
+        "playerHp": 100,
+        "playerDead": false,
+        "enemies": 4,
+        "toSpawn": 0,
+        "totalEnemies": 4,
+        "shotsFired": 2,
+        "hitsOnEnemies": 0,
+        "hitsOnPlayer": 0,
+        "playerPos": [
+          14.85,
+          26
+        ],
+        "audioUnlocked": true,
+        "audioRunning": "running",
+        "muted": false,
+        "board": 0
+      },
+      "tile": null,
+      "target": 24
+    },
+    {
+      "info": {
+        "state": "playing",
+        "phase": "fight",
+        "levelName": "歼灭战",
+        "score": 5,
+        "kills": 0,
+        "lives": 2,
+        "bricksBroken": 1,
+        "playerHp": 100,
+        "playerDead": false,
+        "enemies": 4,
+        "toSpawn": 0,
+        "totalEnemies": 4,
+        "shotsFired": 3,
+        "hitsOnEnemies": 1,
+        "hitsOnPlayer": 0,
+        "playerPos": [
+          14.85,
+          26
+        ],
+        "audioUnlocked": true,
+        "audioRunning": "running",
+        "muted": false,
+        "board": 0
+      },
+      "tile": null,
+      "target": 12
+    },
+    {
+      "info": {
+        "state": "playing",
+        "phase": "fight",
+        "levelName": "歼灭战",
+        "score": 105,
+        "kills": 1,
+        "lives": 2,
+        "bricksBroken": 1,
+        "playerHp": 100,
+        "playerDead": false,
+        "enemies": 3,
+        "toSpawn": 0,
+        "totalEnemies": 4,
+        "shotsFired": 4,
+        "hitsOnEnemies": 2,
+        "hitsOnPlayer": 0,
+        "playerPos": [
+          14.85,
+          26
+        ],
+        "audioUnlocked": true,
+        "audioRunning": "running",
+        "muted": false,
+        "board": 0
+      },
+      "tile": null,
+      "target": null
+    }
+  ],
+  "errors": [],
+  "checks": [
+    {
+      "name": "blocked by intact wall",
+      "pass": true
+    },
+    {
+      "name": "first shot damages wall; shields enemy",
+      "pass": true
+    },
+    {
+      "name": "second destroys wall; still shields enemy",
+      "pass": true
+    },
+    {
+      "name": "third hits enemy behind destroyed wall",
+      "pass": true
+    },
+    {
+      "name": "fourth kills target",
+      "pass": true
+    },
+    {
+      "name": "can cross after destruction",
+      "pass": true
+    },
+    {
+      "name": "no errors",
+      "pass": true
+    }
+  ],
+  "initial": {
+    "info": {
+      "state": "playing",
+      "phase": "fight",
+      "levelName": "歼灭战",
+      "score": 0,
+      "kills": 0,
+      "lives": 2,
+      "bricksBroken": 0,
+      "playerHp": 100,
+      "playerDead": false,
+      "enemies": 4,
+      "toSpawn": 0,
+      "totalEnemies": 4,
+      "shotsFired": 0,
+      "hitsOnEnemies": 0,
+      "hitsOnPlayer": 0,
+      "playerPos": [
+        12,
+        26
+      ],
+      "audioUnlocked": true,
+      "audioRunning": "running",
+      "muted": false,
+      "board": 0
+    },
+    "tile": {
+      "type": "B",
+      "hp": 2
+    },
+    "target": 24
+  },
+  "blocked": {
+    "info": {
+      "state": "playing",
+      "phase": "fight",
+      "levelName": "歼灭战",
+      "score": 0,
+      "kills": 0,
+      "lives": 2,
+      "bricksBroken": 0,
+      "playerHp": 100,
+      "playerDead": false,
+      "enemies": 4,
+      "toSpawn": 0,
+      "totalEnemies": 4,
+      "shotsFired": 0,
+      "hitsOnEnemies": 0,
+      "hitsOnPlayer": 0,
+      "playerPos": [
+        14.85,
+        26
+      ],
+      "audioUnlocked": true,
+      "audioRunning": "running",
+      "muted": false,
+      "board": 0
+    },
+    "tile": {
+      "type": "B",
+      "hp": 2
+    },
+    "target": 24
+  },
+  "crossed": {
+    "info": {
+      "state": "playing",
+      "phase": "fight",
+      "levelName": "歼灭战",
+      "score": 105,
+      "kills": 1,
+      "lives": 2,
+      "bricksBroken": 1,
+      "playerHp": 100,
+      "playerDead": false,
+      "enemies": 3,
+      "toSpawn": 0,
+      "totalEnemies": 4,
+      "shotsFired": 4,
+      "hitsOnEnemies": 2,
+      "hitsOnPlayer": 0,
+      "playerPos": [
+        21.849300000667554,
+        26
+      ],
+      "audioUnlocked": true,
+      "audioRunning": "running",
+      "muted": false,
+      "board": 0
+    },
+    "tile": null,
+    "target": null
+  }
+}

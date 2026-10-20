@@ -1,0 +1,199 @@
+{
+  "ts": "2026-10-20T12:42:46.528Z",
+  "fixture": true,
+  "fixtureDescription": "Freeze enemy AI and place player/enemy aligned across an original brick; actual keyboard shots; supplementary mechanism test, not natural play",
+  "steps": [
+    {
+      "stage": "before",
+      "info": {
+        "state": "playing",
+        "phase": "fight",
+        "level": 1,
+        "levelName": "训练场",
+        "score": 0,
+        "kills": 0,
+        "lives": 3,
+        "bricksBroken": 0,
+        "playerHp": 100,
+        "playerDead": false,
+        "baseHp": 6,
+        "enemies": 1,
+        "toSpawn": 8,
+        "totalEnemies": 8,
+        "shotsFired": 0,
+        "hitsOnEnemies": 0,
+        "hitsOnPlayer": 0,
+        "playerPos": [
+          22,
+          50
+        ],
+        "audioUnlocked": true,
+        "audioRunning": "running",
+        "muted": false,
+        "board": 0
+      },
+      "wall": {
+        "type": "B",
+        "hp": 2
+      },
+      "enemyHP": 24
+    },
+    {
+      "stage": "first_wall_hit",
+      "info": {
+        "state": "playing",
+        "phase": "fight",
+        "level": 1,
+        "levelName": "训练场",
+        "score": 0,
+        "kills": 0,
+        "lives": 3,
+        "bricksBroken": 0,
+        "playerHp": 100,
+        "playerDead": false,
+        "baseHp": 6,
+        "enemies": 1,
+        "toSpawn": 8,
+        "totalEnemies": 8,
+        "shotsFired": 1,
+        "hitsOnEnemies": 0,
+        "hitsOnPlayer": 0,
+        "playerPos": [
+          22,
+          50
+        ],
+        "audioUnlocked": true,
+        "audioRunning": "running",
+        "muted": false,
+        "board": 0
+      },
+      "wall": {
+        "type": "B",
+        "hp": 1
+      },
+      "enemyHP": 24
+    },
+    {
+      "stage": "wall_destroyed",
+      "info": {
+        "state": "playing",
+        "phase": "fight",
+        "level": 1,
+        "levelName": "训练场",
+        "score": 5,
+        "kills": 0,
+        "lives": 3,
+        "bricksBroken": 1,
+        "playerHp": 100,
+        "playerDead": false,
+        "baseHp": 6,
+        "enemies": 1,
+        "toSpawn": 8,
+        "totalEnemies": 8,
+        "shotsFired": 2,
+        "hitsOnEnemies": 0,
+        "hitsOnPlayer": 0,
+        "playerPos": [
+          22,
+          50
+        ],
+        "audioUnlocked": true,
+        "audioRunning": "running",
+        "muted": false,
+        "board": 0
+      },
+      "wall": null,
+      "enemyHP": 24
+    },
+    {
+      "stage": "enemy_hit_after_opening",
+      "info": {
+        "state": "playing",
+        "phase": "fight",
+        "level": 1,
+        "levelName": "训练场",
+        "score": 5,
+        "kills": 0,
+        "lives": 3,
+        "bricksBroken": 1,
+        "playerHp": 100,
+        "playerDead": false,
+        "baseHp": 6,
+        "enemies": 1,
+        "toSpawn": 8,
+        "totalEnemies": 8,
+        "shotsFired": 3,
+        "hitsOnEnemies": 1,
+        "hitsOnPlayer": 0,
+        "playerPos": [
+          22,
+          50
+        ],
+        "audioUnlocked": true,
+        "audioRunning": "running",
+        "muted": false,
+        "board": 0
+      },
+      "wall": null,
+      "enemyHP": 12
+    },
+    {
+      "stage": "enemy_destroyed",
+      "info": {
+        "state": "playing",
+        "phase": "fight",
+        "level": 1,
+        "levelName": "训练场",
+        "score": 105,
+        "kills": 1,
+        "lives": 3,
+        "bricksBroken": 1,
+        "playerHp": 100,
+        "playerDead": false,
+        "baseHp": 6,
+        "enemies": 0,
+        "toSpawn": 8,
+        "totalEnemies": 8,
+        "shotsFired": 4,
+        "hitsOnEnemies": 2,
+        "hitsOnPlayer": 0,
+        "playerPos": [
+          22,
+          50
+        ],
+        "audioUnlocked": true,
+        "audioRunning": "running",
+        "muted": false,
+        "board": 0
+      },
+      "wall": null,
+      "enemyHP": null
+    }
+  ],
+  "checks": [
+    {
+      "name": "wall absorbs first shot and enemy protected",
+      "pass": true
+    },
+    {
+      "name": "second shot destroys wall, enemy protected",
+      "pass": true
+    },
+    {
+      "name": "next shot reaches enemy behind removed wall",
+      "pass": true
+    },
+    {
+      "name": "enemy can be destroyed through opening",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true
+    }
+  ],
+  "errors": {
+    "count": 0,
+    "unique": []
+  }
+}

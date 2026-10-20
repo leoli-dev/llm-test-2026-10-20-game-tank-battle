@@ -1,0 +1,1599 @@
+{
+  "ts": "2026-10-20T16:10:35.013Z",
+  "fixture": "AI frozen for isolated layout/input lifecycle; no HP/tile/score mutation. Natural-play evidence is separate.",
+  "steps": [
+    {
+      "label": "wide-off",
+      "state": "playing",
+      "viewport": [
+        1440,
+        900
+      ],
+      "canvas": {
+        "x": 0,
+        "y": 52,
+        "w": 1440,
+        "h": 788
+      },
+      "drawSize": [
+        1440,
+        788
+      ],
+      "aspect": 1.8274111675126903,
+      "docWidth": 1440,
+      "mapVisible": false,
+      "projectError": [
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "world": [
+            18,
+            26
+          ],
+          "screen": {
+            "x": 646.8821465194586,
+            "y": 454.8943498881723
+          }
+        },
+        {
+          "world": [
+            34,
+            26
+          ],
+          "screen": {
+            "x": 793.1178534805415,
+            "y": 454.8943498881723
+          }
+        },
+        {
+          "world": [
+            26,
+            18
+          ],
+          "screen": {
+            "x": 720,
+            "y": 385.09380469205627
+          }
+        },
+        {
+          "world": [
+            26,
+            34
+          ],
+          "screen": {
+            "x": 720,
+            "y": 527.8695241217439
+          }
+        }
+      ],
+      "aims": [
+        {
+          "target": [
+            18,
+            26
+          ],
+          "actual": [
+            17.999999404150604,
+            25.999999804503712
+          ],
+          "error": 6.271007110214478e-7
+        },
+        {
+          "target": [
+            34,
+            26
+          ],
+          "actual": [
+            34.0000005958494,
+            25.999999804503712
+          ],
+          "error": 6.271007143971135e-7
+        },
+        {
+          "target": [
+            26,
+            18
+          ],
+          "actual": [
+            26,
+            18.000000743161777
+          ],
+          "error": 7.43161777450041e-7
+        },
+        {
+          "target": [
+            26,
+            34
+          ],
+          "actual": [
+            26,
+            33.999998147154955
+          ],
+          "error": 0.0000018528450453914047
+        }
+      ]
+    },
+    {
+      "label": "portrait-off",
+      "state": "playing",
+      "viewport": [
+        900,
+        1000
+      ],
+      "canvas": {
+        "x": 0,
+        "y": 52,
+        "w": 900,
+        "h": 888
+      },
+      "drawSize": [
+        900,
+        888
+      ],
+      "aspect": 1.0135135135135136,
+      "docWidth": 900,
+      "mapVisible": false,
+      "projectError": [
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "world": [
+            18,
+            26
+          ],
+          "screen": {
+            "x": 367.6032311031462,
+            "y": 506.0230744932703
+          }
+        },
+        {
+          "world": [
+            34,
+            26
+          ],
+          "screen": {
+            "x": 532.3967688968538,
+            "y": 506.0230744932703
+          }
+        },
+        {
+          "world": [
+            26,
+            18
+          ],
+          "screen": {
+            "x": 450,
+            "y": 427.3645920895254
+          }
+        },
+        {
+          "world": [
+            26,
+            34
+          ],
+          "screen": {
+            "x": 450,
+            "y": 588.2590576397317
+          }
+        }
+      ],
+      "aims": [
+        {
+          "target": [
+            18,
+            26
+          ],
+          "actual": [
+            18.000000950585488,
+            25.999999681203015
+          ],
+          "error": 0.000001002618714743217
+        },
+        {
+          "target": [
+            34,
+            26
+          ],
+          "actual": [
+            34.000002012402646,
+            25.999999681203015
+          ],
+          "error": 0.000002037497467150879
+        },
+        {
+          "target": [
+            26,
+            18
+          ],
+          "actual": [
+            26,
+            18.00000014725207
+          ],
+          "error": 1.4725207009291807e-7
+        },
+        {
+          "target": [
+            26,
+            34
+          ],
+          "actual": [
+            26,
+            33.9999976756391
+          ],
+          "error": 0.000002324360899308431
+        }
+      ]
+    },
+    {
+      "label": "portrait-map-on",
+      "state": "playing",
+      "viewport": [
+        900,
+        1000
+      ],
+      "canvas": {
+        "x": 0,
+        "y": 52,
+        "w": 900,
+        "h": 835
+      },
+      "drawSize": [
+        900,
+        835
+      ],
+      "aspect": 1.0778443113772456,
+      "docWidth": 900,
+      "mapVisible": true,
+      "projectError": [
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "world": [
+            18,
+            26
+          ],
+          "screen": {
+            "x": 372.5210562737917,
+            "y": 478.92485045256836
+          }
+        },
+        {
+          "world": [
+            34,
+            26
+          ],
+          "screen": {
+            "x": 527.4789437262084,
+            "y": 478.92485045256836
+          }
+        },
+        {
+          "world": [
+            26,
+            18
+          ],
+          "screen": {
+            "x": 450,
+            "y": 404.96107476886675
+          }
+        },
+        {
+          "world": [
+            26,
+            34
+          ],
+          "screen": {
+            "x": 450,
+            "y": 556.2526048751981
+          }
+        }
+      ],
+      "aims": [
+        {
+          "target": [
+            18,
+            26
+          ],
+          "actual": [
+            18.000000052421704,
+            25.99999838668715
+          ],
+          "error": 0.0000016141643003191891
+        },
+        {
+          "target": [
+            34,
+            26
+          ],
+          "actual": [
+            33.999999947578296,
+            25.99999838668715
+          ],
+          "error": 0.0000016141643003191891
+        },
+        {
+          "target": [
+            26,
+            18
+          ],
+          "actual": [
+            26,
+            17.999998319556934
+          ],
+          "error": 0.0000016804430664763004
+        },
+        {
+          "target": [
+            26,
+            34
+          ],
+          "actual": [
+            26,
+            34.00000198634015
+          ],
+          "error": 0.0000019863401519160107
+        }
+      ]
+    },
+    {
+      "label": "narrow-map-on",
+      "state": "playing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "canvas": {
+        "x": 0,
+        "y": 69,
+        "w": 768,
+        "h": 858
+      },
+      "drawSize": [
+        768,
+        858
+      ],
+      "aspect": 0.8951048951048951,
+      "docWidth": 768,
+      "mapVisible": true,
+      "projectError": [
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "world": [
+            18,
+            26
+          ],
+          "screen": {
+            "x": 311.1788047419513,
+            "y": 506.8603535895722
+          }
+        },
+        {
+          "world": [
+            34,
+            26
+          ],
+          "screen": {
+            "x": 456.82119525804876,
+            "y": 506.8603535895722
+          }
+        },
+        {
+          "world": [
+            26,
+            18
+          ],
+          "screen": {
+            "x": 384,
+            "y": 437.2086816568623
+          }
+        },
+        {
+          "world": [
+            26,
+            34
+          ],
+          "screen": {
+            "x": 384,
+            "y": 579.3915384773443
+          }
+        }
+      ],
+      "aims": [
+        {
+          "target": [
+            18,
+            26
+          ],
+          "actual": [
+            17.99999974800896,
+            25.999999771797587
+          ],
+          "error": 3.399644474355601e-7
+        },
+        {
+          "target": [
+            34,
+            26
+          ],
+          "actual": [
+            34.00000025199104,
+            25.999999771797587
+          ],
+          "error": 3.399644474355601e-7
+        },
+        {
+          "target": [
+            26,
+            18
+          ],
+          "actual": [
+            26,
+            17.999999712005692
+          ],
+          "error": 2.8799430751291766e-7
+        },
+        {
+          "target": [
+            26,
+            34
+          ],
+          "actual": [
+            26,
+            34.0000002215304
+          ],
+          "error": 2.2153039935801644e-7
+        }
+      ]
+    },
+    {
+      "label": "landscape-map-on",
+      "state": "playing",
+      "viewport": [
+        1280,
+        800
+      ],
+      "canvas": {
+        "x": 0,
+        "y": 52,
+        "w": 1280,
+        "h": 635
+      },
+      "drawSize": [
+        1280,
+        635
+      ],
+      "aspect": 2.015748031496063,
+      "docWidth": 1280,
+      "mapVisible": true,
+      "projectError": [
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "world": [
+            18,
+            26
+          ],
+          "screen": {
+            "x": 581.0788871064165,
+            "y": 376.66740124237236
+          }
+        },
+        {
+          "world": [
+            34,
+            26
+          ],
+          "screen": {
+            "x": 698.9211128935835,
+            "y": 376.66740124237236
+          }
+        },
+        {
+          "world": [
+            26,
+            18
+          ],
+          "screen": {
+            "x": 640,
+            "y": 320.4194999739286
+          }
+        },
+        {
+          "world": [
+            26,
+            34
+          ],
+          "screen": {
+            "x": 640,
+            "y": 435.47353783922256
+          }
+        }
+      ],
+      "aims": [
+        {
+          "target": [
+            18,
+            26
+          ],
+          "actual": [
+            17.999995931454883,
+            25.99999828498645
+          ],
+          "error": 0.000004415238480948364
+        },
+        {
+          "target": [
+            34,
+            26
+          ],
+          "actual": [
+            34.00000406854512,
+            25.99999828498645
+          ],
+          "error": 0.000004415238480948364
+        },
+        {
+          "target": [
+            26,
+            18
+          ],
+          "actual": [
+            26,
+            17.999999222887855
+          ],
+          "error": 7.771121453004071e-7
+        },
+        {
+          "target": [
+            26,
+            34
+          ],
+          "actual": [
+            26,
+            34.00000045498538
+          ],
+          "error": 4.5498538270294375e-7
+        }
+      ]
+    },
+    {
+      "label": "landscape-map-off",
+      "state": "playing",
+      "viewport": [
+        1280,
+        800
+      ],
+      "canvas": {
+        "x": 0,
+        "y": 52,
+        "w": 1280,
+        "h": 688
+      },
+      "drawSize": [
+        1280,
+        688
+      ],
+      "aspect": 1.8604651162790697,
+      "docWidth": 1280,
+      "mapVisible": false,
+      "projectError": [
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "world": [
+            18,
+            26
+          ],
+          "screen": {
+            "x": 576.1610619357709,
+            "y": 403.7656252830743
+          }
+        },
+        {
+          "world": [
+            34,
+            26
+          ],
+          "screen": {
+            "x": 703.8389380642292,
+            "y": 403.7656252830743
+          }
+        },
+        {
+          "world": [
+            26,
+            18
+          ],
+          "screen": {
+            "x": 640,
+            "y": 342.8230172945872
+          }
+        },
+        {
+          "world": [
+            26,
+            34
+          ],
+          "screen": {
+            "x": 640,
+            "y": 467.4799906037561
+          }
+        }
+      ],
+      "aims": [
+        {
+          "target": [
+            18,
+            26
+          ],
+          "actual": [
+            18.00000123249214,
+            25.999999963649
+          ],
+          "error": 0.000001233028088434629
+        },
+        {
+          "target": [
+            34,
+            26
+          ],
+          "actual": [
+            33.99999876750786,
+            25.999999963649
+          ],
+          "error": 0.000001233028088434629
+        },
+        {
+          "target": [
+            26,
+            18
+          ],
+          "actual": [
+            26,
+            18.0000015123026
+          ],
+          "error": 0.0000015123025995933403
+        },
+        {
+          "target": [
+            26,
+            34
+          ],
+          "actual": [
+            26,
+            33.99999875573981
+          ],
+          "error": 0.0000012442601899920191
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "wide-off canvas/aspect",
+      "pass": true,
+      "data": {
+        "state": "playing",
+        "viewport": [
+          1440,
+          900
+        ],
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "w": 1440,
+          "h": 788
+        },
+        "drawSize": [
+          1440,
+          788
+        ],
+        "aspect": 1.8274111675126903,
+        "docWidth": 1440,
+        "mapVisible": false,
+        "projectError": [
+          0,
+          0,
+          0
+        ],
+        "targets": [
+          {
+            "world": [
+              18,
+              26
+            ],
+            "screen": {
+              "x": 646.8821465194586,
+              "y": 454.8943498881723
+            }
+          },
+          {
+            "world": [
+              34,
+              26
+            ],
+            "screen": {
+              "x": 793.1178534805415,
+              "y": 454.8943498881723
+            }
+          },
+          {
+            "world": [
+              26,
+              18
+            ],
+            "screen": {
+              "x": 720,
+              "y": 385.09380469205627
+            }
+          },
+          {
+            "world": [
+              26,
+              34
+            ],
+            "screen": {
+              "x": 720,
+              "y": 527.8695241217439
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "wide-off projection+real mouse aim",
+      "pass": true,
+      "data": [
+        {
+          "target": [
+            18,
+            26
+          ],
+          "actual": [
+            17.999999404150604,
+            25.999999804503712
+          ],
+          "error": 6.271007110214478e-7
+        },
+        {
+          "target": [
+            34,
+            26
+          ],
+          "actual": [
+            34.0000005958494,
+            25.999999804503712
+          ],
+          "error": 6.271007143971135e-7
+        },
+        {
+          "target": [
+            26,
+            18
+          ],
+          "actual": [
+            26,
+            18.000000743161777
+          ],
+          "error": 7.43161777450041e-7
+        },
+        {
+          "target": [
+            26,
+            34
+          ],
+          "actual": [
+            26,
+            33.999998147154955
+          ],
+          "error": 0.0000018528450453914047
+        }
+      ]
+    },
+    {
+      "name": "wide-off no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "portrait-off canvas/aspect",
+      "pass": true,
+      "data": {
+        "state": "playing",
+        "viewport": [
+          900,
+          1000
+        ],
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "w": 900,
+          "h": 888
+        },
+        "drawSize": [
+          900,
+          888
+        ],
+        "aspect": 1.0135135135135136,
+        "docWidth": 900,
+        "mapVisible": false,
+        "projectError": [
+          0,
+          0,
+          0
+        ],
+        "targets": [
+          {
+            "world": [
+              18,
+              26
+            ],
+            "screen": {
+              "x": 367.6032311031462,
+              "y": 506.0230744932703
+            }
+          },
+          {
+            "world": [
+              34,
+              26
+            ],
+            "screen": {
+              "x": 532.3967688968538,
+              "y": 506.0230744932703
+            }
+          },
+          {
+            "world": [
+              26,
+              18
+            ],
+            "screen": {
+              "x": 450,
+              "y": 427.3645920895254
+            }
+          },
+          {
+            "world": [
+              26,
+              34
+            ],
+            "screen": {
+              "x": 450,
+              "y": 588.2590576397317
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "portrait-off projection+real mouse aim",
+      "pass": true,
+      "data": [
+        {
+          "target": [
+            18,
+            26
+          ],
+          "actual": [
+            18.000000950585488,
+            25.999999681203015
+          ],
+          "error": 0.000001002618714743217
+        },
+        {
+          "target": [
+            34,
+            26
+          ],
+          "actual": [
+            34.000002012402646,
+            25.999999681203015
+          ],
+          "error": 0.000002037497467150879
+        },
+        {
+          "target": [
+            26,
+            18
+          ],
+          "actual": [
+            26,
+            18.00000014725207
+          ],
+          "error": 1.4725207009291807e-7
+        },
+        {
+          "target": [
+            26,
+            34
+          ],
+          "actual": [
+            26,
+            33.9999976756391
+          ],
+          "error": 0.000002324360899308431
+        }
+      ]
+    },
+    {
+      "name": "portrait-off no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "portrait-map-on canvas/aspect",
+      "pass": true,
+      "data": {
+        "state": "playing",
+        "viewport": [
+          900,
+          1000
+        ],
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "w": 900,
+          "h": 835
+        },
+        "drawSize": [
+          900,
+          835
+        ],
+        "aspect": 1.0778443113772456,
+        "docWidth": 900,
+        "mapVisible": true,
+        "projectError": [
+          0,
+          0,
+          0
+        ],
+        "targets": [
+          {
+            "world": [
+              18,
+              26
+            ],
+            "screen": {
+              "x": 372.5210562737917,
+              "y": 478.92485045256836
+            }
+          },
+          {
+            "world": [
+              34,
+              26
+            ],
+            "screen": {
+              "x": 527.4789437262084,
+              "y": 478.92485045256836
+            }
+          },
+          {
+            "world": [
+              26,
+              18
+            ],
+            "screen": {
+              "x": 450,
+              "y": 404.96107476886675
+            }
+          },
+          {
+            "world": [
+              26,
+              34
+            ],
+            "screen": {
+              "x": 450,
+              "y": 556.2526048751981
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "portrait-map-on projection+real mouse aim",
+      "pass": true,
+      "data": [
+        {
+          "target": [
+            18,
+            26
+          ],
+          "actual": [
+            18.000000052421704,
+            25.99999838668715
+          ],
+          "error": 0.0000016141643003191891
+        },
+        {
+          "target": [
+            34,
+            26
+          ],
+          "actual": [
+            33.999999947578296,
+            25.99999838668715
+          ],
+          "error": 0.0000016141643003191891
+        },
+        {
+          "target": [
+            26,
+            18
+          ],
+          "actual": [
+            26,
+            17.999998319556934
+          ],
+          "error": 0.0000016804430664763004
+        },
+        {
+          "target": [
+            26,
+            34
+          ],
+          "actual": [
+            26,
+            34.00000198634015
+          ],
+          "error": 0.0000019863401519160107
+        }
+      ]
+    },
+    {
+      "name": "portrait-map-on no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "narrow-map-on canvas/aspect",
+      "pass": true,
+      "data": {
+        "state": "playing",
+        "viewport": [
+          768,
+          1024
+        ],
+        "canvas": {
+          "x": 0,
+          "y": 69,
+          "w": 768,
+          "h": 858
+        },
+        "drawSize": [
+          768,
+          858
+        ],
+        "aspect": 0.8951048951048951,
+        "docWidth": 768,
+        "mapVisible": true,
+        "projectError": [
+          0,
+          0,
+          0
+        ],
+        "targets": [
+          {
+            "world": [
+              18,
+              26
+            ],
+            "screen": {
+              "x": 311.1788047419513,
+              "y": 506.8603535895722
+            }
+          },
+          {
+            "world": [
+              34,
+              26
+            ],
+            "screen": {
+              "x": 456.82119525804876,
+              "y": 506.8603535895722
+            }
+          },
+          {
+            "world": [
+              26,
+              18
+            ],
+            "screen": {
+              "x": 384,
+              "y": 437.2086816568623
+            }
+          },
+          {
+            "world": [
+              26,
+              34
+            ],
+            "screen": {
+              "x": 384,
+              "y": 579.3915384773443
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "narrow-map-on projection+real mouse aim",
+      "pass": true,
+      "data": [
+        {
+          "target": [
+            18,
+            26
+          ],
+          "actual": [
+            17.99999974800896,
+            25.999999771797587
+          ],
+          "error": 3.399644474355601e-7
+        },
+        {
+          "target": [
+            34,
+            26
+          ],
+          "actual": [
+            34.00000025199104,
+            25.999999771797587
+          ],
+          "error": 3.399644474355601e-7
+        },
+        {
+          "target": [
+            26,
+            18
+          ],
+          "actual": [
+            26,
+            17.999999712005692
+          ],
+          "error": 2.8799430751291766e-7
+        },
+        {
+          "target": [
+            26,
+            34
+          ],
+          "actual": [
+            26,
+            34.0000002215304
+          ],
+          "error": 2.2153039935801644e-7
+        }
+      ]
+    },
+    {
+      "name": "narrow-map-on no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "landscape-map-on canvas/aspect",
+      "pass": true,
+      "data": {
+        "state": "playing",
+        "viewport": [
+          1280,
+          800
+        ],
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "w": 1280,
+          "h": 635
+        },
+        "drawSize": [
+          1280,
+          635
+        ],
+        "aspect": 2.015748031496063,
+        "docWidth": 1280,
+        "mapVisible": true,
+        "projectError": [
+          0,
+          0,
+          0
+        ],
+        "targets": [
+          {
+            "world": [
+              18,
+              26
+            ],
+            "screen": {
+              "x": 581.0788871064165,
+              "y": 376.66740124237236
+            }
+          },
+          {
+            "world": [
+              34,
+              26
+            ],
+            "screen": {
+              "x": 698.9211128935835,
+              "y": 376.66740124237236
+            }
+          },
+          {
+            "world": [
+              26,
+              18
+            ],
+            "screen": {
+              "x": 640,
+              "y": 320.4194999739286
+            }
+          },
+          {
+            "world": [
+              26,
+              34
+            ],
+            "screen": {
+              "x": 640,
+              "y": 435.47353783922256
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "landscape-map-on projection+real mouse aim",
+      "pass": true,
+      "data": [
+        {
+          "target": [
+            18,
+            26
+          ],
+          "actual": [
+            17.999995931454883,
+            25.99999828498645
+          ],
+          "error": 0.000004415238480948364
+        },
+        {
+          "target": [
+            34,
+            26
+          ],
+          "actual": [
+            34.00000406854512,
+            25.99999828498645
+          ],
+          "error": 0.000004415238480948364
+        },
+        {
+          "target": [
+            26,
+            18
+          ],
+          "actual": [
+            26,
+            17.999999222887855
+          ],
+          "error": 7.771121453004071e-7
+        },
+        {
+          "target": [
+            26,
+            34
+          ],
+          "actual": [
+            26,
+            34.00000045498538
+          ],
+          "error": 4.5498538270294375e-7
+        }
+      ]
+    },
+    {
+      "name": "landscape-map-on no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "landscape-map-off canvas/aspect",
+      "pass": true,
+      "data": {
+        "state": "playing",
+        "viewport": [
+          1280,
+          800
+        ],
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "w": 1280,
+          "h": 688
+        },
+        "drawSize": [
+          1280,
+          688
+        ],
+        "aspect": 1.8604651162790697,
+        "docWidth": 1280,
+        "mapVisible": false,
+        "projectError": [
+          0,
+          0,
+          0
+        ],
+        "targets": [
+          {
+            "world": [
+              18,
+              26
+            ],
+            "screen": {
+              "x": 576.1610619357709,
+              "y": 403.7656252830743
+            }
+          },
+          {
+            "world": [
+              34,
+              26
+            ],
+            "screen": {
+              "x": 703.8389380642292,
+              "y": 403.7656252830743
+            }
+          },
+          {
+            "world": [
+              26,
+              18
+            ],
+            "screen": {
+              "x": 640,
+              "y": 342.8230172945872
+            }
+          },
+          {
+            "world": [
+              26,
+              34
+            ],
+            "screen": {
+              "x": 640,
+              "y": 467.4799906037561
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "landscape-map-off projection+real mouse aim",
+      "pass": true,
+      "data": [
+        {
+          "target": [
+            18,
+            26
+          ],
+          "actual": [
+            18.00000123249214,
+            25.999999963649
+          ],
+          "error": 0.000001233028088434629
+        },
+        {
+          "target": [
+            34,
+            26
+          ],
+          "actual": [
+            33.99999876750786,
+            25.999999963649
+          ],
+          "error": 0.000001233028088434629
+        },
+        {
+          "target": [
+            26,
+            18
+          ],
+          "actual": [
+            26,
+            18.0000015123026
+          ],
+          "error": 0.0000015123025995933403
+        },
+        {
+          "target": [
+            26,
+            34
+          ],
+          "actual": [
+            26,
+            33.99999875573981
+          ],
+          "error": 0.0000012442601899920191
+        }
+      ]
+    },
+    {
+      "name": "landscape-map-off no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "real movement after live resizes",
+      "pass": true,
+      "data": {
+        "before": {
+          "state": "playing",
+          "phase": "fight",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "after": {
+          "state": "playing",
+          "phase": "fight",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            23.200700001001373
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        }
+      }
+    },
+    {
+      "name": "pause freezes resized game",
+      "pass": true,
+      "data": {
+        "q": {
+          "time": 5.4444000000953725,
+          "info": {
+            "state": "paused",
+            "phase": "fight",
+            "levelName": "歼灭战",
+            "score": 0,
+            "kills": 0,
+            "lives": 2,
+            "bricksBroken": 0,
+            "playerHp": 100,
+            "playerDead": false,
+            "enemies": 4,
+            "toSpawn": 0,
+            "totalEnemies": 4,
+            "shotsFired": 0,
+            "hitsOnEnemies": 0,
+            "hitsOnPlayer": 0,
+            "playerPos": [
+              26,
+              23.200700001001373
+            ],
+            "audioUnlocked": true,
+            "audioRunning": "running",
+            "muted": false,
+            "board": 0
+          }
+        },
+        "q2": {
+          "time": 5.4444000000953725,
+          "info": {
+            "state": "paused",
+            "phase": "fight",
+            "levelName": "歼灭战",
+            "score": 0,
+            "kills": 0,
+            "lives": 2,
+            "bricksBroken": 0,
+            "playerHp": 100,
+            "playerDead": false,
+            "enemies": 4,
+            "toSpawn": 0,
+            "totalEnemies": 4,
+            "shotsFired": 0,
+            "hitsOnEnemies": 0,
+            "hitsOnPlayer": 0,
+            "playerPos": [
+              26,
+              23.200700001001373
+            ],
+            "audioUnlocked": true,
+            "audioRunning": "running",
+            "muted": false,
+            "board": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "resume actual movement",
+      "pass": true
+    },
+    {
+      "name": "restart remains fixed4/2lives",
+      "pass": true,
+      "data": {
+        "state": "playing",
+        "phase": "intro",
+        "levelName": "歼灭战",
+        "score": 0,
+        "kills": 0,
+        "lives": 2,
+        "bricksBroken": 0,
+        "playerHp": 100,
+        "playerDead": false,
+        "enemies": 4,
+        "toSpawn": 0,
+        "totalEnemies": 4,
+        "shotsFired": 0,
+        "hitsOnEnemies": 0,
+        "hitsOnPlayer": 0,
+        "playerPos": [
+          26,
+          26
+        ],
+        "audioUnlocked": true,
+        "audioRunning": "running",
+        "muted": false,
+        "board": 0
+      }
+    },
+    {
+      "name": "no page errors",
+      "pass": true,
+      "data": []
+    }
+  ],
+  "errors": []
+}

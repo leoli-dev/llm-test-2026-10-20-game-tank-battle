@@ -1,0 +1,181 @@
+{
+  "first_prompt_utc": "2026-10-20T04:38:17.267901+00:00",
+  "elapsed_s": 2798.4591851234436,
+  "requests": {
+    "start": 66,
+    "end": 66
+  },
+  "http_status_counts": {
+    "200": 66
+  },
+  "output_tokens": 82551,
+  "reasoning_tokens": 31986,
+  "request_decode_tps_weighted": 45.945864450687466,
+  "request_prefill_tps_weighted": 454.4692310676512,
+  "decode_tps_distribution": {
+    "n": 66,
+    "min": 29.147829881605677,
+    "median": 47.178104997178266,
+    "p95": 75.11072057023301,
+    "max": 92.57802934225799,
+    "mean": 49.659821540133215
+  },
+  "ttft_ms": {
+    "n": 66,
+    "min": 566.310999999987,
+    "median": 2756.6865000000003,
+    "p95": 14340.018749999996,
+    "max": 19422.699999999997,
+    "mean": 4855.085757575757
+  },
+  "max_context": 106076,
+  "engine_delta": {
+    "metrics": {
+      "prefill_input_tokens": 107143,
+      "prefill_wall_ms": 225994.13659999997,
+      "decode_output_tokens": 82551,
+      "decode_wall_ms": 1788461.6477,
+      "drafted_tokens": 157038,
+      "accepted_draft_tokens": 60051,
+      "capacity_failures": 0,
+      "metal_failures": 0
+    },
+    "requests": {
+      "submitted": 66,
+      "completed": 66,
+      "cancelled": 0,
+      "failed": 0
+    },
+    "cache": {
+      "lookups": 66,
+      "hits": 65,
+      "cold_misses": 1,
+      "reused_tokens": 4095232,
+      "resource_suspensions": 0,
+      "resource_resumptions": 0
+    },
+    "images": {
+      "encodes": 8,
+      "embedding_reuses": 0
+    },
+    "transport": {
+      "restarts": 0
+    },
+    "native_prefill_tps": 474.0963708701813,
+    "native_decode_tps": 46.15754556781374,
+    "draft_acceptance": 0.38239789095632903
+  },
+  "resource": {
+    "samples": 562,
+    "sample_duration_s": {
+      "n": 562,
+      "min": 0.7637427079025656,
+      "median": 0.924195499974303,
+      "p95": 1.0160681375302372,
+      "max": 1.2125827090349048,
+      "mean": 0.929430297883708
+    },
+    "gpu_all": {
+      "n": 562,
+      "min": 0,
+      "median": 99.0,
+      "p95": 100.0,
+      "max": 100,
+      "mean": 72.08362989323844
+    },
+    "gpu_active": {
+      "n": 419,
+      "min": 0,
+      "median": 99.0,
+      "p95": 100.0,
+      "max": 100,
+      "mean": 95.69928400954655
+    },
+    "gpu_idle": {
+      "n": 143,
+      "min": 0,
+      "median": 0.0,
+      "p95": 18.0,
+      "max": 82,
+      "mean": 2.888111888111888
+    },
+    "cpu_busy": {
+      "n": 517,
+      "min": 3.317798490901021,
+      "median": 4.837095518736795,
+      "p95": 11.179502826532374,
+      "max": 18.768132113367553,
+      "mean": 6.105087536938945
+    },
+    "engine_memory_gib": {
+      "n": 562,
+      "min": 81.7276611328125,
+      "median": 94.44512939453125,
+      "p95": 95.15628967285156,
+      "max": 95.21258544921875,
+      "mean": 91.32476893523409
+    },
+    "engine_rss_gib": {
+      "n": 562,
+      "min": 9.083831787109375,
+      "median": 14.537521362304688,
+      "p95": 27.340362548828125,
+      "max": 27.705734252929688,
+      "mean": 15.950469644892683
+    },
+    "swap_used_gib": {
+      "n": 562,
+      "min": 5.487734375,
+      "median": 10.68712890625,
+      "p95": 11.47466796875,
+      "max": 11.4808984375,
+      "mean": 9.061399525272464
+    },
+    "pressure_counts": {
+      "normal": 202,
+      "warning": 360
+    },
+    "baseline_engine_memory_gib": 81.7276611328125,
+    "final_engine_memory_gib": 94.41387939453125,
+    "baseline_state_gib": 39.810546875,
+    "final_state_gib": 52.7763671875,
+    "baseline_kv_gib": 11.298828125,
+    "final_kv_gib": 11.93359375,
+    "host_wired_gib": {
+      "n": 562,
+      "min": 6.8155670166015625,
+      "median": 48.70945739746094,
+      "p95": 49.920752716064456,
+      "max": 51.04887390136719,
+      "mean": 40.58472833599484
+    },
+    "host_compressor_gib": {
+      "n": 562,
+      "min": 21.48406982421875,
+      "median": 43.372947692871094,
+      "p95": 46.27841033935547,
+      "max": 49.957183837890625,
+      "mean": 40.40176595233089
+    },
+    "host_free_gib": {
+      "n": 562,
+      "min": 0.075042724609375,
+      "median": 1.4053268432617188,
+      "p95": 2.4501113891601545,
+      "max": 4.4248809814453125,
+      "mean": 1.3920433071584464
+    },
+    "host_available_gib": {
+      "n": 562,
+      "min": 6.9989471435546875,
+      "median": 9.07806396484375,
+      "p95": 36.8533432006836,
+      "max": 37.95680236816406,
+      "mean": 14.437129526375875
+    }
+  },
+  "pi_settled_utc": "2026-10-20T05:24:15.282925+00:00",
+  "pi_elapsed_s": 2758.015023946762,
+  "state_evictions_delta": 60,
+  "memory_denied_reservations_delta": 3074
+}

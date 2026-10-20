@@ -1,0 +1,7 @@
+{
+  "compactions": [],
+  "helperRequests": 0,
+  "helperOutputTokens": 0,
+  "helperWallSeconds": 0,
+  "method": "RPC compaction_end plus helper message_count=2, usage totals cross-checked"
+}

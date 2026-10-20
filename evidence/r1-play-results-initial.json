@@ -1,0 +1,291 @@
+{
+  "ts": "2026-10-20T04:53:33.259Z",
+  "errors": [],
+  "badResources": [],
+  "steps": [
+    {
+      "stage": "play",
+      "elapsed_s": 0.008,
+      "info": {
+        "state": "playing",
+        "victory": false,
+        "score": 0,
+        "wave": 1,
+        "kills": 0,
+        "playerHp": 100,
+        "playerPos": [
+          0,
+          0,
+          -24.499999999999993
+        ],
+        "enemies": 1,
+        "shotsFired": 0,
+        "hitsOnEnemies": 0,
+        "hitsOnPlayer": 0,
+        "audioUnlocked": true,
+        "muted": false,
+        "board": [],
+        "obstacleCount": 48
+      }
+    },
+    {
+      "stage": "play",
+      "elapsed_s": 2.209,
+      "info": {
+        "state": "playing",
+        "victory": false,
+        "score": 0,
+        "wave": 1,
+        "kills": 0,
+        "playerHp": 100,
+        "playerPos": [
+          0,
+          0,
+          -24.499999999999993
+        ],
+        "enemies": 2,
+        "shotsFired": 0,
+        "hitsOnEnemies": 0,
+        "hitsOnPlayer": 0,
+        "audioUnlocked": true,
+        "muted": false,
+        "board": [],
+        "obstacleCount": 48
+      }
+    },
+    {
+      "stage": "play",
+      "elapsed_s": 4.365,
+      "info": {
+        "state": "playing",
+        "victory": false,
+        "score": 0,
+        "wave": 1,
+        "kills": 0,
+        "playerHp": 100,
+        "playerPos": [
+          0,
+          0,
+          -24.499999999999993
+        ],
+        "enemies": 3,
+        "shotsFired": 3,
+        "hitsOnEnemies": 2,
+        "hitsOnPlayer": 0,
+        "audioUnlocked": true,
+        "muted": false,
+        "board": [],
+        "obstacleCount": 48
+      }
+    },
+    {
+      "stage": "play",
+      "elapsed_s": 6.428,
+      "info": {
+        "state": "playing",
+        "victory": false,
+        "score": 100,
+        "wave": 1,
+        "kills": 1,
+        "playerHp": 69.87077543645474,
+        "playerPos": [
+          0,
+          0,
+          -24.499999999999993
+        ],
+        "enemies": 3,
+        "shotsFired": 5,
+        "hitsOnEnemies": 3,
+        "hitsOnPlayer": 3,
+        "audioUnlocked": true,
+        "muted": false,
+        "board": [],
+        "obstacleCount": 48
+      }
+    },
+    {
+      "stage": "play",
+      "elapsed_s": 8.459,
+      "info": {
+        "state": "playing",
+        "victory": false,
+        "score": 100,
+        "wave": 1,
+        "kills": 1,
+        "playerHp": 46.63242093012841,
+        "playerPos": [
+          0,
+          0,
+          -24.499999999999993
+        ],
+        "enemies": 3,
+        "shotsFired": 5,
+        "hitsOnEnemies": 3,
+        "hitsOnPlayer": 5,
+        "audioUnlocked": true,
+        "muted": false,
+        "board": [],
+        "obstacleCount": 48
+      }
+    },
+    {
+      "stage": "play",
+      "elapsed_s": 10.488,
+      "info": {
+        "state": "playing",
+        "victory": false,
+        "score": 100,
+        "wave": 1,
+        "kills": 1,
+        "playerHp": 15.00330882903664,
+        "playerPos": [
+          0,
+          0,
+          -24.499999999999993
+        ],
+        "enemies": 3,
+        "shotsFired": 5,
+        "hitsOnEnemies": 3,
+        "hitsOnPlayer": 8,
+        "audioUnlocked": true,
+        "muted": false,
+        "board": [],
+        "obstacleCount": 48
+      }
+    },
+    {
+      "stage": "natural_end",
+      "gotKill": true,
+      "done": true,
+      "info": {
+        "state": "over",
+        "victory": false,
+        "score": 100,
+        "wave": 1,
+        "kills": 1,
+        "playerHp": 0,
+        "playerPos": [
+          0,
+          0,
+          -24.499999999999993
+        ],
+        "enemies": 3,
+        "shotsFired": 5,
+        "hitsOnEnemies": 3,
+        "hitsOnPlayer": 10,
+        "audioUnlocked": true,
+        "muted": false,
+        "board": [],
+        "obstacleCount": 48
+      }
+    },
+    {
+      "stage": "frame_intervals",
+      "data": {
+        "frames": 653,
+        "median_ms": 16.69999999999891,
+        "p95_ms": 16.700000000000728,
+        "mean_ms": 16.793721286370598
+      }
+    },
+    {
+      "stage": "saved",
+      "info": {
+        "state": "over",
+        "victory": false,
+        "score": 100,
+        "wave": 1,
+        "kills": 1,
+        "playerHp": 0,
+        "playerPos": [
+          0,
+          0,
+          -24.499999999999993
+        ],
+        "enemies": 3,
+        "shotsFired": 5,
+        "hitsOnEnemies": 3,
+        "hitsOnPlayer": 10,
+        "audioUnlocked": true,
+        "muted": false,
+        "board": [
+          {
+            "name": "OBSERVER",
+            "score": 100,
+            "wave": 1,
+            "kills": 1,
+            "diff": "normal",
+            "date": "2026-10-20"
+          }
+        ],
+        "obstacleCount": 48
+      }
+    },
+    {
+      "stage": "reload_persistence",
+      "info": {
+        "state": "menu",
+        "victory": false,
+        "score": 0,
+        "wave": 1,
+        "kills": 0,
+        "playerHp": 100,
+        "playerPos": [
+          0,
+          0,
+          -30
+        ],
+        "enemies": 0,
+        "shotsFired": 0,
+        "hitsOnEnemies": 0,
+        "hitsOnPlayer": 0,
+        "audioUnlocked": true,
+        "muted": false,
+        "board": [
+          {
+            "name": "OBSERVER",
+            "score": 100,
+            "wave": 1,
+            "kills": 1,
+            "diff": "normal",
+            "date": "2026-10-20"
+          }
+        ],
+        "obstacleCount": 48
+      }
+    },
+    {
+      "stage": "fresh_run",
+      "info": {
+        "state": "playing",
+        "victory": false,
+        "score": 0,
+        "wave": 1,
+        "kills": 0,
+        "playerHp": 100,
+        "playerPos": [
+          0,
+          0,
+          -30
+        ],
+        "enemies": 0,
+        "shotsFired": 0,
+        "hitsOnEnemies": 0,
+        "hitsOnPlayer": 0,
+        "audioUnlocked": true,
+        "muted": false,
+        "board": [
+          {
+            "name": "OBSERVER",
+            "score": 100,
+            "wave": 1,
+            "kills": 1,
+            "diff": "normal",
+            "date": "2026-10-20"
+          }
+        ],
+        "obstacleCount": 48
+      }
+    }
+  ]
+}

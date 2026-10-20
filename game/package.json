@@ -1,0 +1,21 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test:all": "node tests/r3-maze-check.mjs && node tests/r3-smoke.mjs && node tests/r3-tap.mjs && node tests/r3-flow.mjs && node tests/r4-layout.mjs && node tests/r4-play.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.186.1",
+    "vite": "^8.3.4"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  }
+}

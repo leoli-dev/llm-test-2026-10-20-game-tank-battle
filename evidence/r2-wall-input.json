@@ -1,0 +1,206 @@
+{
+  "ts": "2026-10-20T12:24:29.123Z",
+  "inputOnly": true,
+  "errors": {
+    "count": 0,
+    "unique": []
+  },
+  "steps": [
+    {
+      "stage": "blocked",
+      "data": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "level": 1,
+          "levelName": "训练场",
+          "score": 0,
+          "kills": 0,
+          "lives": 3,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "baseHp": 6,
+          "enemies": 0,
+          "toSpawn": 8,
+          "totalEnemies": 8,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            21.916900000333808,
+            45.15
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "tile": {
+          "type": "B",
+          "hp": 2
+        }
+      }
+    },
+    {
+      "stage": "still_blocked",
+      "data": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "level": 1,
+          "levelName": "训练场",
+          "score": 0,
+          "kills": 0,
+          "lives": 3,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "baseHp": 6,
+          "enemies": 0,
+          "toSpawn": 8,
+          "totalEnemies": 8,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            21.916900000333808,
+            45.15
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "tile": {
+          "type": "B",
+          "hp": 2
+        }
+      }
+    },
+    {
+      "stage": "one_shot",
+      "data": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "level": 1,
+          "levelName": "训练场",
+          "score": 0,
+          "kills": 0,
+          "lives": 3,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "baseHp": 6,
+          "enemies": 0,
+          "toSpawn": 8,
+          "totalEnemies": 8,
+          "shotsFired": 1,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            21.916900000333808,
+            45.15
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "tile": {
+          "type": "B",
+          "hp": 1
+        }
+      }
+    },
+    {
+      "stage": "destroyed",
+      "data": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "level": 1,
+          "levelName": "训练场",
+          "score": 5,
+          "kills": 0,
+          "lives": 3,
+          "bricksBroken": 1,
+          "playerHp": 100,
+          "playerDead": false,
+          "baseHp": 6,
+          "enemies": 1,
+          "toSpawn": 7,
+          "totalEnemies": 8,
+          "shotsFired": 2,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            21.916900000333808,
+            45.15
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "tile": null
+      }
+    },
+    {
+      "stage": "crossed",
+      "data": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "level": 1,
+          "levelName": "训练场",
+          "score": 5,
+          "kills": 0,
+          "lives": 3,
+          "bricksBroken": 1,
+          "playerHp": 100,
+          "playerDead": false,
+          "baseHp": 6,
+          "enemies": 1,
+          "toSpawn": 7,
+          "totalEnemies": 8,
+          "shotsFired": 2,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            21.916900000333808,
+            37.099999999999994
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "tile": null
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "intact wall blocks movement",
+      "pass": true
+    },
+    {
+      "name": "one hit cracks brick",
+      "pass": true
+    },
+    {
+      "name": "shots remove brick",
+      "pass": true
+    },
+    {
+      "name": "destroyed wall allows movement",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true
+    }
+  ]
+}

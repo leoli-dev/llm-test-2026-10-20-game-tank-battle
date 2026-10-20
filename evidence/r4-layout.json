@@ -1,0 +1,2522 @@
+{
+  "ts": "2026-10-20T16:08:36.838Z",
+  "readOnly": true,
+  "results": [
+    {
+      "width": 1440,
+      "height": 900,
+      "errors": [],
+      "initial": {
+        "info": {
+          "state": "playing",
+          "phase": "intro",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "time": 0.1535,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "width": 1440,
+          "height": 788,
+          "right": 1440,
+          "bottom": 840
+        },
+        "arena": [
+          {
+            "x": 498.38198041825444,
+            "y": 238.6268647276344
+          },
+          {
+            "x": 941.6180195817458,
+            "y": 238.6268647276344
+          },
+          {
+            "x": 976.1429365921043,
+            "y": 704.8532153403404
+          },
+          {
+            "x": 463.8570634078958,
+            "y": 704.8532153403404
+          }
+        ],
+        "hudPairs": [],
+        "arenaInside": true,
+        "hud": [
+          {
+            "id": "topbar",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 52,
+            "right": 1440,
+            "bottom": 52
+          },
+          {
+            "id": "tb-left-1",
+            "x": 14,
+            "y": 11.5,
+            "width": 272.234375,
+            "height": 28,
+            "right": 286.234375,
+            "bottom": 39.5
+          },
+          {
+            "id": "banner",
+            "x": 566.953125,
+            "y": 9.5,
+            "width": 253.625,
+            "height": 32,
+            "right": 820.578125,
+            "bottom": 41.5
+          },
+          {
+            "id": "tb-right-3",
+            "x": 1101.3125,
+            "y": 6.5,
+            "width": 324.6875,
+            "height": 38,
+            "right": 1426,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnMap",
+            "x": 1101.3125,
+            "y": 6.5,
+            "width": 98,
+            "height": 38,
+            "right": 1199.3125,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnSound",
+            "x": 1207.3125,
+            "y": 6.5,
+            "width": 113.703125,
+            "height": 38,
+            "right": 1321.015625,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnPause",
+            "x": 1329.015625,
+            "y": 6.5,
+            "width": 96.984375,
+            "height": 38,
+            "right": 1426,
+            "bottom": 44.5
+          },
+          {
+            "id": "botbar",
+            "x": 0,
+            "y": 840.203125,
+            "width": 1440,
+            "height": 59.796875,
+            "right": 1440,
+            "bottom": 900
+          },
+          {
+            "id": "stat-8",
+            "x": 14,
+            "y": 855.09375,
+            "width": 180,
+            "height": 31,
+            "right": 194,
+            "bottom": 886.09375
+          },
+          {
+            "id": "stat-9",
+            "x": 214,
+            "y": 855.09375,
+            "width": 180,
+            "height": 31,
+            "right": 394,
+            "bottom": 886.09375
+          },
+          {
+            "id": "stat-10",
+            "x": 414,
+            "y": 849.203125,
+            "width": 42,
+            "height": 42.796875,
+            "right": 456,
+            "bottom": 892
+          },
+          {
+            "id": "stat-11",
+            "x": 476,
+            "y": 855.09375,
+            "width": 180,
+            "height": 31,
+            "right": 656,
+            "bottom": 886.09375
+          }
+        ],
+        "overlap": [],
+        "spawnBounds": [
+          {
+            "id": 0,
+            "x": 494.51508906787063,
+            "y": 269.31262596025346,
+            "right": 527.0525265786785,
+            "bottom": 309.575126213772,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 1,
+            "x": 912.9474734213215,
+            "y": 269.31262596025346,
+            "right": 945.4849109321294,
+            "bottom": 309.575126213772,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 2,
+            "x": 466.8525167281829,
+            "y": 627.3563980068587,
+            "right": 504.43608008129945,
+            "bottom": 680.3498626826257,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 3,
+            "x": 935.5639199187005,
+            "y": 627.3563980068587,
+            "right": 973.1474832718171,
+            "bottom": 680.3498626826257,
+            "inside": true,
+            "hudOverlaps": []
+          }
+        ],
+        "scrollWidth": 1440,
+        "scrollHeight": 900
+      },
+      "active": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "time": 3.802699999809269,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "width": 1440,
+          "height": 788,
+          "right": 1440,
+          "bottom": 840
+        },
+        "arena": [
+          {
+            "x": 498.38198041825444,
+            "y": 238.6268647276344
+          },
+          {
+            "x": 941.6180195817458,
+            "y": 238.6268647276344
+          },
+          {
+            "x": 976.1429365921043,
+            "y": 704.8532153403404
+          },
+          {
+            "x": 463.8570634078958,
+            "y": 704.8532153403404
+          }
+        ],
+        "hudPairs": [],
+        "arenaInside": true,
+        "hud": [
+          {
+            "id": "topbar",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 52,
+            "right": 1440,
+            "bottom": 52
+          },
+          {
+            "id": "tb-left-1",
+            "x": 14,
+            "y": 11.5,
+            "width": 272.234375,
+            "height": 28,
+            "right": 286.234375,
+            "bottom": 39.5
+          },
+          {
+            "id": "tb-right-3",
+            "x": 1101.3125,
+            "y": 6.5,
+            "width": 324.6875,
+            "height": 38,
+            "right": 1426,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnMap",
+            "x": 1101.3125,
+            "y": 6.5,
+            "width": 98,
+            "height": 38,
+            "right": 1199.3125,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnSound",
+            "x": 1207.3125,
+            "y": 6.5,
+            "width": 113.703125,
+            "height": 38,
+            "right": 1321.015625,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnPause",
+            "x": 1329.015625,
+            "y": 6.5,
+            "width": 96.984375,
+            "height": 38,
+            "right": 1426,
+            "bottom": 44.5
+          },
+          {
+            "id": "botbar",
+            "x": 0,
+            "y": 840.203125,
+            "width": 1440,
+            "height": 59.796875,
+            "right": 1440,
+            "bottom": 900
+          },
+          {
+            "id": "stat-8",
+            "x": 14,
+            "y": 855.09375,
+            "width": 180,
+            "height": 31,
+            "right": 194,
+            "bottom": 886.09375
+          },
+          {
+            "id": "stat-9",
+            "x": 214,
+            "y": 855.09375,
+            "width": 180,
+            "height": 31,
+            "right": 394,
+            "bottom": 886.09375
+          },
+          {
+            "id": "stat-10",
+            "x": 414,
+            "y": 849.203125,
+            "width": 42,
+            "height": 42.796875,
+            "right": 456,
+            "bottom": 892
+          },
+          {
+            "id": "stat-11",
+            "x": 476,
+            "y": 855.09375,
+            "width": 180,
+            "height": 31,
+            "right": 656,
+            "bottom": 886.09375
+          }
+        ],
+        "overlap": [],
+        "spawnBounds": [
+          {
+            "id": 0,
+            "x": 491.6396837984527,
+            "y": 264.5364382141531,
+            "right": 530.5321348337909,
+            "bottom": 308.87656825200645,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 1,
+            "x": 909.467865164393,
+            "y": 264.5364382147751,
+            "right": 948.3603162033407,
+            "bottom": 308.8464869658814,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 2,
+            "x": 465.2407028917872,
+            "y": 612.0220157445824,
+            "right": 507.70447344491873,
+            "bottom": 665.5427853113451,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 3,
+            "x": 933.0290159031396,
+            "y": 609.3188868292624,
+            "right": 974.0055694600508,
+            "bottom": 664.8467750113621,
+            "inside": true,
+            "hudOverlaps": []
+          }
+        ],
+        "scrollWidth": 1440,
+        "scrollHeight": 900
+      },
+      "mapOn": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "time": 4.11979999995232,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "width": 1440,
+          "height": 735,
+          "right": 1440,
+          "bottom": 787
+        },
+        "arena": [
+          {
+            "x": 513.287760923118,
+            "y": 226.07455022184172
+          },
+          {
+            "x": 926.712239076882,
+            "y": 226.07455022184172
+          },
+          {
+            "x": 958.9150487248689,
+            "y": 660.9430371512058
+          },
+          {
+            "x": 481.0849512751312,
+            "y": 660.9430371512058
+          }
+        ],
+        "hudPairs": [],
+        "arenaInside": true,
+        "hud": [
+          {
+            "id": "topbar",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 52,
+            "right": 1440,
+            "bottom": 52
+          },
+          {
+            "id": "tb-left-1",
+            "x": 14,
+            "y": 11.5,
+            "width": 272.234375,
+            "height": 28,
+            "right": 286.234375,
+            "bottom": 39.5
+          },
+          {
+            "id": "tb-right-3",
+            "x": 1101.3125,
+            "y": 6.5,
+            "width": 324.6875,
+            "height": 38,
+            "right": 1426,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnMap",
+            "x": 1101.3125,
+            "y": 6.5,
+            "width": 98,
+            "height": 38,
+            "right": 1199.3125,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnSound",
+            "x": 1207.3125,
+            "y": 6.5,
+            "width": 113.703125,
+            "height": 38,
+            "right": 1321.015625,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnPause",
+            "x": 1329.015625,
+            "y": 6.5,
+            "width": 96.984375,
+            "height": 38,
+            "right": 1426,
+            "bottom": 44.5
+          },
+          {
+            "id": "botbar",
+            "x": 0,
+            "y": 787,
+            "width": 1440,
+            "height": 113,
+            "right": 1440,
+            "bottom": 900
+          },
+          {
+            "id": "stat-8",
+            "x": 14,
+            "y": 828.5,
+            "width": 180,
+            "height": 31,
+            "right": 194,
+            "bottom": 859.5
+          },
+          {
+            "id": "stat-9",
+            "x": 214,
+            "y": 828.5,
+            "width": 180,
+            "height": 31,
+            "right": 394,
+            "bottom": 859.5
+          },
+          {
+            "id": "stat-10",
+            "x": 414,
+            "y": 822.59375,
+            "width": 42,
+            "height": 42.796875,
+            "right": 456,
+            "bottom": 865.390625
+          },
+          {
+            "id": "stat-11",
+            "x": 476,
+            "y": 828.5,
+            "width": 180,
+            "height": 31,
+            "right": 656,
+            "bottom": 859.5
+          },
+          {
+            "id": "minimap-wrap",
+            "x": 676,
+            "y": 796,
+            "width": 134.8125,
+            "height": 96,
+            "right": 810.8125,
+            "bottom": 892
+          }
+        ],
+        "overlap": [],
+        "spawnBounds": [
+          {
+            "id": 0,
+            "x": 510.6705764358948,
+            "y": 249.84963561946068,
+            "right": 540.0697873826286,
+            "bottom": 287.9196698592051,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 1,
+            "x": 899.930212617248,
+            "y": 249.849635619455,
+            "right": 929.3294235642988,
+            "bottom": 287.88722324676064,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 2,
+            "x": 485.0089885200665,
+            "y": 580.5811597332203,
+            "right": 525.7166333957725,
+            "bottom": 619.581557743888,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 3,
+            "x": 919.0979878242118,
+            "y": 576.0540505729051,
+            "right": 955.5991935461255,
+            "bottom": 620.2780280711256,
+            "inside": true,
+            "hudOverlaps": []
+          }
+        ],
+        "scrollWidth": 1440,
+        "scrollHeight": 900
+      }
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "errors": [],
+      "initial": {
+        "info": {
+          "state": "playing",
+          "phase": "intro",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "time": 0.15030000019073486,
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "width": 1280,
+          "height": 688,
+          "right": 1280,
+          "bottom": 740
+        },
+        "arena": [
+          {
+            "x": 446.50609457837436,
+            "y": 214.94325245255388
+          },
+          {
+            "x": 833.4939054216256,
+            "y": 214.94325245255388
+          },
+          {
+            "x": 863.6374877859998,
+            "y": 622.0038225306524
+          },
+          {
+            "x": 416.3625122140003,
+            "y": 622.0038225306524
+          }
+        ],
+        "hudPairs": [],
+        "arenaInside": true,
+        "hud": [
+          {
+            "id": "topbar",
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 52,
+            "right": 1280,
+            "bottom": 52
+          },
+          {
+            "id": "tb-left-1",
+            "x": 14,
+            "y": 11.5,
+            "width": 272.234375,
+            "height": 28,
+            "right": 286.234375,
+            "bottom": 39.5
+          },
+          {
+            "id": "banner",
+            "x": 486.953125,
+            "y": 9.5,
+            "width": 253.625,
+            "height": 32,
+            "right": 740.578125,
+            "bottom": 41.5
+          },
+          {
+            "id": "tb-right-3",
+            "x": 941.3125,
+            "y": 6.5,
+            "width": 324.6875,
+            "height": 38,
+            "right": 1266,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnMap",
+            "x": 941.3125,
+            "y": 6.5,
+            "width": 98,
+            "height": 38,
+            "right": 1039.3125,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnSound",
+            "x": 1047.3125,
+            "y": 6.5,
+            "width": 113.703125,
+            "height": 38,
+            "right": 1161.015625,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnPause",
+            "x": 1169.015625,
+            "y": 6.5,
+            "width": 96.984375,
+            "height": 38,
+            "right": 1266,
+            "bottom": 44.5
+          },
+          {
+            "id": "botbar",
+            "x": 0,
+            "y": 740.203125,
+            "width": 1280,
+            "height": 59.796875,
+            "right": 1280,
+            "bottom": 800
+          },
+          {
+            "id": "stat-8",
+            "x": 14,
+            "y": 755.09375,
+            "width": 180,
+            "height": 31,
+            "right": 194,
+            "bottom": 786.09375
+          },
+          {
+            "id": "stat-9",
+            "x": 214,
+            "y": 755.09375,
+            "width": 180,
+            "height": 31,
+            "right": 394,
+            "bottom": 786.09375
+          },
+          {
+            "id": "stat-10",
+            "x": 414,
+            "y": 749.203125,
+            "width": 42,
+            "height": 42.796875,
+            "right": 456,
+            "bottom": 792
+          },
+          {
+            "id": "stat-11",
+            "x": 476,
+            "y": 755.09375,
+            "width": 180,
+            "height": 31,
+            "right": 656,
+            "bottom": 786.09375
+          }
+        ],
+        "overlap": [],
+        "spawnBounds": [
+          {
+            "id": 0,
+            "x": 443.12992548057736,
+            "y": 241.7348815490538,
+            "right": 471.5382465560036,
+            "bottom": 276.8879274556791,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 1,
+            "x": 808.4617534439965,
+            "y": 241.7348815490538,
+            "right": 836.8700745194226,
+            "bottom": 276.8879274556791,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 2,
+            "x": 418.9778318642003,
+            "y": 554.3416266861914,
+            "right": 451.7919074821498,
+            "bottom": 600.6100323929525,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 3,
+            "x": 828.2080925178502,
+            "y": 554.3416266861914,
+            "right": 861.0221681357998,
+            "bottom": 600.6100323929525,
+            "inside": true,
+            "hudOverlaps": []
+          }
+        ],
+        "scrollWidth": 1280,
+        "scrollHeight": 800
+      },
+      "active": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "time": 3.801200000047688,
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "width": 1280,
+          "height": 688,
+          "right": 1280,
+          "bottom": 740
+        },
+        "arena": [
+          {
+            "x": 446.50609457837436,
+            "y": 214.94325245255388
+          },
+          {
+            "x": 833.4939054216256,
+            "y": 214.94325245255388
+          },
+          {
+            "x": 863.6374877859998,
+            "y": 622.0038225306524
+          },
+          {
+            "x": 416.3625122140003,
+            "y": 622.0038225306524
+          }
+        ],
+        "hudPairs": [],
+        "arenaInside": true,
+        "hud": [
+          {
+            "id": "topbar",
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 52,
+            "right": 1280,
+            "bottom": 52
+          },
+          {
+            "id": "tb-left-1",
+            "x": 14,
+            "y": 11.5,
+            "width": 272.234375,
+            "height": 28,
+            "right": 286.234375,
+            "bottom": 39.5
+          },
+          {
+            "id": "tb-right-3",
+            "x": 941.3125,
+            "y": 6.5,
+            "width": 324.6875,
+            "height": 38,
+            "right": 1266,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnMap",
+            "x": 941.3125,
+            "y": 6.5,
+            "width": 98,
+            "height": 38,
+            "right": 1039.3125,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnSound",
+            "x": 1047.3125,
+            "y": 6.5,
+            "width": 113.703125,
+            "height": 38,
+            "right": 1161.015625,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnPause",
+            "x": 1169.015625,
+            "y": 6.5,
+            "width": 96.984375,
+            "height": 38,
+            "right": 1266,
+            "bottom": 44.5
+          },
+          {
+            "id": "botbar",
+            "x": 0,
+            "y": 740.203125,
+            "width": 1280,
+            "height": 59.796875,
+            "right": 1280,
+            "bottom": 800
+          },
+          {
+            "id": "stat-8",
+            "x": 14,
+            "y": 755.09375,
+            "width": 180,
+            "height": 31,
+            "right": 194,
+            "bottom": 786.09375
+          },
+          {
+            "id": "stat-9",
+            "x": 214,
+            "y": 755.09375,
+            "width": 180,
+            "height": 31,
+            "right": 394,
+            "bottom": 786.09375
+          },
+          {
+            "id": "stat-10",
+            "x": 414,
+            "y": 749.203125,
+            "width": 42,
+            "height": 42.796875,
+            "right": 456,
+            "bottom": 792
+          },
+          {
+            "id": "stat-11",
+            "x": 476,
+            "y": 755.09375,
+            "width": 180,
+            "height": 31,
+            "right": 656,
+            "bottom": 786.09375
+          }
+        ],
+        "overlap": [],
+        "spawnBounds": [
+          {
+            "id": 0,
+            "x": 440.5999945412499,
+            "y": 237.5715981234628,
+            "right": 474.59595547844054,
+            "bottom": 276.28330936082506,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 1,
+            "x": 805.4040445199763,
+            "y": 237.57159812401326,
+            "right": 839.4000054603129,
+            "bottom": 276.25715235545425,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 2,
+            "x": 417.5669085009818,
+            "y": 540.9469769085468,
+            "right": 454.64907638163396,
+            "bottom": 587.685362186823,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 3,
+            "x": 825.966717647626,
+            "y": 538.5873473825561,
+            "right": 861.8002262955313,
+            "bottom": 587.1012524366085,
+            "inside": true,
+            "hudOverlaps": []
+          }
+        ],
+        "scrollWidth": 1280,
+        "scrollHeight": 800
+      },
+      "mapOn": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "time": 4.117700000047688,
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "width": 1280,
+          "height": 635,
+          "right": 1280,
+          "bottom": 687
+        },
+        "arena": [
+          {
+            "x": 461.411875083238,
+            "y": 202.39093794676123
+          },
+          {
+            "x": 818.588124916762,
+            "y": 202.39093794676123
+          },
+          {
+            "x": 846.4095999187643,
+            "y": 578.0936443415179
+          },
+          {
+            "x": 433.59040008123577,
+            "y": 578.0936443415179
+          }
+        ],
+        "hudPairs": [],
+        "arenaInside": true,
+        "hud": [
+          {
+            "id": "topbar",
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 52,
+            "right": 1280,
+            "bottom": 52
+          },
+          {
+            "id": "tb-left-1",
+            "x": 14,
+            "y": 11.5,
+            "width": 272.234375,
+            "height": 28,
+            "right": 286.234375,
+            "bottom": 39.5
+          },
+          {
+            "id": "tb-right-3",
+            "x": 941.3125,
+            "y": 6.5,
+            "width": 324.6875,
+            "height": 38,
+            "right": 1266,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnMap",
+            "x": 941.3125,
+            "y": 6.5,
+            "width": 98,
+            "height": 38,
+            "right": 1039.3125,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnSound",
+            "x": 1047.3125,
+            "y": 6.5,
+            "width": 113.703125,
+            "height": 38,
+            "right": 1161.015625,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnPause",
+            "x": 1169.015625,
+            "y": 6.5,
+            "width": 96.984375,
+            "height": 38,
+            "right": 1266,
+            "bottom": 44.5
+          },
+          {
+            "id": "botbar",
+            "x": 0,
+            "y": 687,
+            "width": 1280,
+            "height": 113,
+            "right": 1280,
+            "bottom": 800
+          },
+          {
+            "id": "stat-8",
+            "x": 14,
+            "y": 728.5,
+            "width": 180,
+            "height": 31,
+            "right": 194,
+            "bottom": 759.5
+          },
+          {
+            "id": "stat-9",
+            "x": 214,
+            "y": 728.5,
+            "width": 180,
+            "height": 31,
+            "right": 394,
+            "bottom": 759.5
+          },
+          {
+            "id": "stat-10",
+            "x": 414,
+            "y": 722.59375,
+            "width": 42,
+            "height": 42.796875,
+            "right": 456,
+            "bottom": 765.390625
+          },
+          {
+            "id": "stat-11",
+            "x": 476,
+            "y": 728.5,
+            "width": 180,
+            "height": 31,
+            "right": 656,
+            "bottom": 759.5
+          },
+          {
+            "id": "minimap-wrap",
+            "x": 676,
+            "y": 696,
+            "width": 134.8125,
+            "height": 96,
+            "right": 810.8125,
+            "bottom": 792
+          }
+        ],
+        "overlap": [],
+        "spawnBounds": [
+          {
+            "id": 0,
+            "x": 459.1467484995643,
+            "y": 222.93120002280142,
+            "right": 484.55265358073086,
+            "bottom": 255.82112416783085,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 1,
+            "x": 795.4473464191624,
+            "y": 222.93120002279656,
+            "right": 820.8532515006033,
+            "bottom": 255.7930333749183,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 2,
+            "x": 436.9684363465433,
+            "y": 508.66269319003806,
+            "right": 472.14758748091117,
+            "bottom": 542.3733878821713,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 3,
+            "x": 812.008705723807,
+            "y": 504.75497754417074,
+            "right": 843.5408735975966,
+            "bottom": 542.9566761946862,
+            "inside": true,
+            "hudOverlaps": []
+          }
+        ],
+        "scrollWidth": 1280,
+        "scrollHeight": 800
+      }
+    },
+    {
+      "width": 900,
+      "height": 1000,
+      "errors": [],
+      "initial": {
+        "info": {
+          "state": "playing",
+          "phase": "intro",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "time": 0.16659999990463253,
+        "viewport": {
+          "width": 900,
+          "height": 1000
+        },
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "width": 900,
+          "height": 888,
+          "right": 900,
+          "bottom": 940
+        },
+        "arena": [
+          {
+            "x": 200.25786625813436,
+            "y": 262.3104770027149
+          },
+          {
+            "x": 699.7421337418657,
+            "y": 262.3104770027149
+          },
+          {
+            "x": 738.6483853982088,
+            "y": 787.7026081500283
+          },
+          {
+            "x": 161.35161460179114,
+            "y": 787.7026081500283
+          }
+        ],
+        "hudPairs": [],
+        "arenaInside": true,
+        "hud": [
+          {
+            "id": "topbar",
+            "x": 0,
+            "y": 0,
+            "width": 900,
+            "height": 52,
+            "right": 900,
+            "bottom": 52
+          },
+          {
+            "id": "tb-left-1",
+            "x": 14,
+            "y": 11.5,
+            "width": 168.5,
+            "height": 28,
+            "right": 182.5,
+            "bottom": 39.5
+          },
+          {
+            "id": "banner",
+            "x": 245.09375,
+            "y": 9.5,
+            "width": 253.625,
+            "height": 32,
+            "right": 498.71875,
+            "bottom": 41.5
+          },
+          {
+            "id": "tb-right-3",
+            "x": 561.3125,
+            "y": 6.5,
+            "width": 324.6875,
+            "height": 38,
+            "right": 886,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnMap",
+            "x": 561.3125,
+            "y": 6.5,
+            "width": 98,
+            "height": 38,
+            "right": 659.3125,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnSound",
+            "x": 667.3125,
+            "y": 6.5,
+            "width": 113.703125,
+            "height": 38,
+            "right": 781.015625,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnPause",
+            "x": 789.015625,
+            "y": 6.5,
+            "width": 96.984375,
+            "height": 38,
+            "right": 886,
+            "bottom": 44.5
+          },
+          {
+            "id": "botbar",
+            "x": 0,
+            "y": 940.203125,
+            "width": 900,
+            "height": 59.796875,
+            "right": 900,
+            "bottom": 1000
+          },
+          {
+            "id": "stat-8",
+            "x": 14,
+            "y": 955.09375,
+            "width": 130,
+            "height": 31,
+            "right": 144,
+            "bottom": 986.09375
+          },
+          {
+            "id": "stat-9",
+            "x": 156,
+            "y": 955.09375,
+            "width": 130,
+            "height": 31,
+            "right": 286,
+            "bottom": 986.09375
+          },
+          {
+            "id": "stat-10",
+            "x": 298,
+            "y": 949.203125,
+            "width": 42,
+            "height": 42.796875,
+            "right": 340,
+            "bottom": 992
+          },
+          {
+            "id": "stat-11",
+            "x": 352,
+            "y": 955.09375,
+            "width": 138.046875,
+            "height": 31,
+            "right": 490.046875,
+            "bottom": 986.09375
+          }
+        ],
+        "overlap": [],
+        "spawnBounds": [
+          {
+            "id": 0,
+            "x": 195.90025265516385,
+            "y": 296.8903703714532,
+            "right": 232.56680660135348,
+            "bottom": 342.2623249718649,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 1,
+            "x": 667.4331933986466,
+            "y": 296.8903703714532,
+            "right": 704.0997473448361,
+            "bottom": 342.2623249718649,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 2,
+            "x": 164.72720159216553,
+            "y": 700.3711693275261,
+            "right": 207.08025268044918,
+            "bottom": 760.0896929722991,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 3,
+            "x": 692.9197473195509,
+            "y": 700.3711693275261,
+            "right": 735.2727984078347,
+            "bottom": 760.0896929722991,
+            "inside": true,
+            "hudOverlaps": []
+          }
+        ],
+        "scrollWidth": 900,
+        "scrollHeight": 1000
+      },
+      "active": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "time": 3.8153999998569494,
+        "viewport": {
+          "width": 900,
+          "height": 1000
+        },
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "width": 900,
+          "height": 888,
+          "right": 900,
+          "bottom": 940
+        },
+        "arena": [
+          {
+            "x": 200.25786625813436,
+            "y": 262.3104770027149
+          },
+          {
+            "x": 699.7421337418657,
+            "y": 262.3104770027149
+          },
+          {
+            "x": 738.6483853982088,
+            "y": 787.7026081500283
+          },
+          {
+            "x": 161.35161460179114,
+            "y": 787.7026081500283
+          }
+        ],
+        "hudPairs": [],
+        "arenaInside": true,
+        "hud": [
+          {
+            "id": "topbar",
+            "x": 0,
+            "y": 0,
+            "width": 900,
+            "height": 52,
+            "right": 900,
+            "bottom": 52
+          },
+          {
+            "id": "tb-left-1",
+            "x": 14,
+            "y": 11.5,
+            "width": 168.5,
+            "height": 28,
+            "right": 182.5,
+            "bottom": 39.5
+          },
+          {
+            "id": "tb-right-3",
+            "x": 561.3125,
+            "y": 6.5,
+            "width": 324.6875,
+            "height": 38,
+            "right": 886,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnMap",
+            "x": 561.3125,
+            "y": 6.5,
+            "width": 98,
+            "height": 38,
+            "right": 659.3125,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnSound",
+            "x": 667.3125,
+            "y": 6.5,
+            "width": 113.703125,
+            "height": 38,
+            "right": 781.015625,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnPause",
+            "x": 789.015625,
+            "y": 6.5,
+            "width": 96.984375,
+            "height": 38,
+            "right": 886,
+            "bottom": 44.5
+          },
+          {
+            "id": "botbar",
+            "x": 0,
+            "y": 940.203125,
+            "width": 900,
+            "height": 59.796875,
+            "right": 900,
+            "bottom": 1000
+          },
+          {
+            "id": "stat-8",
+            "x": 14,
+            "y": 955.09375,
+            "width": 130,
+            "height": 31,
+            "right": 144,
+            "bottom": 986.09375
+          },
+          {
+            "id": "stat-9",
+            "x": 156,
+            "y": 955.09375,
+            "width": 130,
+            "height": 31,
+            "right": 286,
+            "bottom": 986.09375
+          },
+          {
+            "id": "stat-10",
+            "x": 298,
+            "y": 949.203125,
+            "width": 42,
+            "height": 42.796875,
+            "right": 340,
+            "bottom": 992
+          },
+          {
+            "id": "stat-11",
+            "x": 352,
+            "y": 955.09375,
+            "width": 138.046875,
+            "height": 31,
+            "right": 490.046875,
+            "bottom": 986.09375
+          }
+        ],
+        "overlap": [],
+        "spawnBounds": [
+          {
+            "id": 0,
+            "x": 192.64637095258863,
+            "y": 291.51279598542186,
+            "right": 236.50174102168373,
+            "bottom": 341.47641849211254,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 1,
+            "x": 663.4982589762523,
+            "y": 291.5127959861346,
+            "right": 707.3536290494493,
+            "bottom": 341.44246079393076,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 2,
+            "x": 162.91624675887275,
+            "y": 683.0962674081172,
+            "right": 210.75817261617212,
+            "bottom": 743.3986104366259,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 3,
+            "x": 690.0434812305323,
+            "y": 680.0432857631621,
+            "right": 736.2599455362006,
+            "bottom": 742.6380124206781,
+            "inside": true,
+            "hudOverlaps": []
+          }
+        ],
+        "scrollWidth": 900,
+        "scrollHeight": 1000
+      },
+      "mapOn": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "time": 4.14889999985695,
+        "viewport": {
+          "width": 900,
+          "height": 1000
+        },
+        "canvas": {
+          "x": 0,
+          "y": 52,
+          "width": 900,
+          "height": 835,
+          "right": 900,
+          "bottom": 887
+        },
+        "arena": [
+          {
+            "x": 215.16364676299796,
+            "y": 249.75816249692224
+          },
+          {
+            "x": 684.8363532370022,
+            "y": 249.75816249692224
+          },
+          {
+            "x": 721.4204975309735,
+            "y": 743.7924299608936
+          },
+          {
+            "x": 178.57950246902658,
+            "y": 743.7924299608936
+          }
+        ],
+        "hudPairs": [],
+        "arenaInside": true,
+        "hud": [
+          {
+            "id": "topbar",
+            "x": 0,
+            "y": 0,
+            "width": 900,
+            "height": 52,
+            "right": 900,
+            "bottom": 52
+          },
+          {
+            "id": "tb-left-1",
+            "x": 14,
+            "y": 11.5,
+            "width": 168.5,
+            "height": 28,
+            "right": 182.5,
+            "bottom": 39.5
+          },
+          {
+            "id": "tb-right-3",
+            "x": 561.3125,
+            "y": 6.5,
+            "width": 324.6875,
+            "height": 38,
+            "right": 886,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnMap",
+            "x": 561.3125,
+            "y": 6.5,
+            "width": 98,
+            "height": 38,
+            "right": 659.3125,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnSound",
+            "x": 667.3125,
+            "y": 6.5,
+            "width": 113.703125,
+            "height": 38,
+            "right": 781.015625,
+            "bottom": 44.5
+          },
+          {
+            "id": "btnPause",
+            "x": 789.015625,
+            "y": 6.5,
+            "width": 96.984375,
+            "height": 38,
+            "right": 886,
+            "bottom": 44.5
+          },
+          {
+            "id": "botbar",
+            "x": 0,
+            "y": 887,
+            "width": 900,
+            "height": 113,
+            "right": 900,
+            "bottom": 1000
+          },
+          {
+            "id": "stat-8",
+            "x": 14,
+            "y": 928.5,
+            "width": 130,
+            "height": 31,
+            "right": 144,
+            "bottom": 959.5
+          },
+          {
+            "id": "stat-9",
+            "x": 156,
+            "y": 928.5,
+            "width": 130,
+            "height": 31,
+            "right": 286,
+            "bottom": 959.5
+          },
+          {
+            "id": "stat-10",
+            "x": 298,
+            "y": 922.59375,
+            "width": 42,
+            "height": 42.796875,
+            "right": 340,
+            "bottom": 965.390625
+          },
+          {
+            "id": "stat-11",
+            "x": 352,
+            "y": 928.5,
+            "width": 138.046875,
+            "height": 31,
+            "right": 490.046875,
+            "bottom": 959.5
+          },
+          {
+            "id": "minimap-wrap",
+            "x": 502.046875,
+            "y": 896,
+            "width": 134.8125,
+            "height": 96,
+            "right": 636.859375,
+            "bottom": 992
+          }
+        ],
+        "overlap": [],
+        "spawnBounds": [
+          {
+            "id": 0,
+            "x": 212.2655498158502,
+            "y": 276.7702800235206,
+            "right": 245.54144333103525,
+            "bottom": 320.0334048424067,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 1,
+            "x": 654.4585566688413,
+            "y": 276.7702800235144,
+            "right": 687.7344501843427,
+            "bottom": 319.9981032495199,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 2,
+            "x": 182.9365481638748,
+            "y": 652.4192643330601,
+            "right": 229.22035490710573,
+            "bottom": 696.9185672335448,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 3,
+            "x": 676.2144571250727,
+            "y": 647.3337942103046,
+            "right": 717.7279368403822,
+            "bottom": 697.6804962481536,
+            "inside": true,
+            "hudOverlaps": []
+          }
+        ],
+        "scrollWidth": 900,
+        "scrollHeight": 1000
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "errors": [],
+      "initial": {
+        "info": {
+          "state": "playing",
+          "phase": "intro",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "time": 0.16669999980926514,
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "canvas": {
+          "x": 0,
+          "y": 101,
+          "width": 768,
+          "height": 863,
+          "right": 768,
+          "bottom": 964
+        },
+        "arena": [
+          {
+            "x": 161.64907168316674,
+            "y": 324.38946144545184
+          },
+          {
+            "x": 606.3509283168332,
+            "y": 324.38946144545184
+          },
+          {
+            "x": 637.5161928762253,
+            "y": 788.7622210648889
+          },
+          {
+            "x": 130.48380712377465,
+            "y": 788.7622210648889
+          }
+        ],
+        "hudPairs": [],
+        "arenaInside": true,
+        "hud": [
+          {
+            "id": "topbar",
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 101,
+            "right": 768,
+            "bottom": 101
+          },
+          {
+            "id": "tb-left-1",
+            "x": 10,
+            "y": 13.5,
+            "width": 166.109375,
+            "height": 23,
+            "right": 176.109375,
+            "bottom": 36.5
+          },
+          {
+            "id": "banner",
+            "x": 257.1875,
+            "y": 62,
+            "width": 253.625,
+            "height": 32,
+            "right": 510.8125,
+            "bottom": 94
+          },
+          {
+            "id": "tb-right-3",
+            "x": 433.3125,
+            "y": 6,
+            "width": 324.6875,
+            "height": 38,
+            "right": 758,
+            "bottom": 44
+          },
+          {
+            "id": "btnMap",
+            "x": 433.3125,
+            "y": 6,
+            "width": 98,
+            "height": 38,
+            "right": 531.3125,
+            "bottom": 44
+          },
+          {
+            "id": "btnSound",
+            "x": 539.3125,
+            "y": 6,
+            "width": 113.703125,
+            "height": 38,
+            "right": 653.015625,
+            "bottom": 44
+          },
+          {
+            "id": "btnPause",
+            "x": 661.015625,
+            "y": 6,
+            "width": 96.984375,
+            "height": 38,
+            "right": 758,
+            "bottom": 44
+          },
+          {
+            "id": "botbar",
+            "x": 0,
+            "y": 964.203125,
+            "width": 768,
+            "height": 59.796875,
+            "right": 768,
+            "bottom": 1024
+          },
+          {
+            "id": "stat-8",
+            "x": 14,
+            "y": 979.09375,
+            "width": 130,
+            "height": 31,
+            "right": 144,
+            "bottom": 1010.09375
+          },
+          {
+            "id": "stat-9",
+            "x": 156,
+            "y": 979.09375,
+            "width": 130,
+            "height": 31,
+            "right": 286,
+            "bottom": 1010.09375
+          },
+          {
+            "id": "stat-10",
+            "x": 298,
+            "y": 973.203125,
+            "width": 42,
+            "height": 42.796875,
+            "right": 340,
+            "bottom": 1016
+          },
+          {
+            "id": "stat-11",
+            "x": 352,
+            "y": 979.09375,
+            "width": 138.046875,
+            "height": 31,
+            "right": 490.046875,
+            "bottom": 1010.09375
+          }
+        ],
+        "overlap": [],
+        "spawnBounds": [
+          {
+            "id": 0,
+            "x": 158.80131118377042,
+            "y": 355.57694718580285,
+            "right": 190.61658356070916,
+            "bottom": 396.0791119438457,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 1,
+            "x": 577.3834164392908,
+            "y": 355.57694718580285,
+            "right": 609.1986888162296,
+            "bottom": 396.0791119438457,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 2,
+            "x": 133.99913363505186,
+            "y": 712.3075028100345,
+            "right": 170.17742763896234,
+            "bottom": 764.2016046456637,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 3,
+            "x": 597.8225723610377,
+            "y": 712.3075028100345,
+            "right": 634.0008663649483,
+            "bottom": 764.2016046456637,
+            "inside": true,
+            "hudOverlaps": []
+          }
+        ],
+        "scrollWidth": 768,
+        "scrollHeight": 1024
+      },
+      "active": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "time": 3.8166999998092686,
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "canvas": {
+          "x": 0,
+          "y": 69,
+          "width": 768,
+          "height": 895,
+          "right": 768,
+          "bottom": 964
+        },
+        "arena": [
+          {
+            "x": 159.82976002184267,
+            "y": 306.6710113329972
+          },
+          {
+            "x": 608.1702399781573,
+            "y": 306.6710113329972
+          },
+          {
+            "x": 638.5496065958297,
+            "y": 773.8260279536385
+          },
+          {
+            "x": 129.4503934041703,
+            "y": 773.8260279536385
+          }
+        ],
+        "hudPairs": [],
+        "arenaInside": true,
+        "hud": [
+          {
+            "id": "topbar",
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 69,
+            "right": 768,
+            "bottom": 69
+          },
+          {
+            "id": "tb-left-1",
+            "x": 10,
+            "y": 13.5,
+            "width": 166.109375,
+            "height": 23,
+            "right": 176.109375,
+            "bottom": 36.5
+          },
+          {
+            "id": "tb-right-3",
+            "x": 433.3125,
+            "y": 6,
+            "width": 324.6875,
+            "height": 38,
+            "right": 758,
+            "bottom": 44
+          },
+          {
+            "id": "btnMap",
+            "x": 433.3125,
+            "y": 6,
+            "width": 98,
+            "height": 38,
+            "right": 531.3125,
+            "bottom": 44
+          },
+          {
+            "id": "btnSound",
+            "x": 539.3125,
+            "y": 6,
+            "width": 113.703125,
+            "height": 38,
+            "right": 653.015625,
+            "bottom": 44
+          },
+          {
+            "id": "btnPause",
+            "x": 661.015625,
+            "y": 6,
+            "width": 96.984375,
+            "height": 38,
+            "right": 758,
+            "bottom": 44
+          },
+          {
+            "id": "botbar",
+            "x": 0,
+            "y": 964.203125,
+            "width": 768,
+            "height": 59.796875,
+            "right": 768,
+            "bottom": 1024
+          },
+          {
+            "id": "stat-8",
+            "x": 14,
+            "y": 979.09375,
+            "width": 130,
+            "height": 31,
+            "right": 144,
+            "bottom": 1010.09375
+          },
+          {
+            "id": "stat-9",
+            "x": 156,
+            "y": 979.09375,
+            "width": 130,
+            "height": 31,
+            "right": 286,
+            "bottom": 1010.09375
+          },
+          {
+            "id": "stat-10",
+            "x": 298,
+            "y": 973.203125,
+            "width": 42,
+            "height": 42.796875,
+            "right": 340,
+            "bottom": 1016
+          },
+          {
+            "id": "stat-11",
+            "x": 352,
+            "y": 979.09375,
+            "width": 138.046875,
+            "height": 31,
+            "right": 490.046875,
+            "bottom": 1010.09375
+          }
+        ],
+        "overlap": [],
+        "spawnBounds": [
+          {
+            "id": 0,
+            "x": 153.4287524994266,
+            "y": 334.0712007302129,
+            "right": 192.95094371697118,
+            "bottom": 378.53083277769275,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 1,
+            "x": 575.0490562815503,
+            "y": 334.0712007308275,
+            "right": 614.5712475020314,
+            "bottom": 378.50505306160875,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 2,
+            "x": 130.1398599575532,
+            "y": 681.4230124417943,
+            "right": 172.9427986778099,
+            "bottom": 735.11266223675,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 3,
+            "x": 595.6702644135796,
+            "y": 678.9286949929925,
+            "right": 637.2304715539237,
+            "bottom": 734.5318355803951,
+            "inside": true,
+            "hudOverlaps": []
+          }
+        ],
+        "scrollWidth": 768,
+        "scrollHeight": 1024
+      },
+      "mapOn": {
+        "info": {
+          "state": "playing",
+          "phase": "fight",
+          "levelName": "歼灭战",
+          "score": 0,
+          "kills": 0,
+          "lives": 2,
+          "bricksBroken": 0,
+          "playerHp": 100,
+          "playerDead": false,
+          "enemies": 4,
+          "toSpawn": 0,
+          "totalEnemies": 4,
+          "shotsFired": 0,
+          "hitsOnEnemies": 0,
+          "hitsOnPlayer": 0,
+          "playerPos": [
+            26,
+            26
+          ],
+          "audioUnlocked": true,
+          "audioRunning": "running",
+          "muted": false,
+          "board": 0
+        },
+        "time": 4.133199999809268,
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "canvas": {
+          "x": 0,
+          "y": 69,
+          "width": 768,
+          "height": 858,
+          "right": 768,
+          "bottom": 927
+        },
+        "arena": [
+          {
+            "x": 161.9465800972999,
+            "y": 290.17041780426064
+          },
+          {
+            "x": 606.0534199027002,
+            "y": 290.17041780426064
+          },
+          {
+            "x": 637.3438740878391,
+            "y": 754.084953110493
+          },
+          {
+            "x": 130.65612591216097,
+            "y": 754.084953110493
+          }
+        ],
+        "hudPairs": [],
+        "arenaInside": true,
+        "hud": [
+          {
+            "id": "topbar",
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 69,
+            "right": 768,
+            "bottom": 69
+          },
+          {
+            "id": "tb-left-1",
+            "x": 10,
+            "y": 13.5,
+            "width": 166.109375,
+            "height": 23,
+            "right": 176.109375,
+            "bottom": 36.5
+          },
+          {
+            "id": "tb-right-3",
+            "x": 433.3125,
+            "y": 6,
+            "width": 324.6875,
+            "height": 38,
+            "right": 758,
+            "bottom": 44
+          },
+          {
+            "id": "btnMap",
+            "x": 433.3125,
+            "y": 6,
+            "width": 98,
+            "height": 38,
+            "right": 531.3125,
+            "bottom": 44
+          },
+          {
+            "id": "btnSound",
+            "x": 539.3125,
+            "y": 6,
+            "width": 113.703125,
+            "height": 38,
+            "right": 653.015625,
+            "bottom": 44
+          },
+          {
+            "id": "btnPause",
+            "x": 661.015625,
+            "y": 6,
+            "width": 96.984375,
+            "height": 38,
+            "right": 758,
+            "bottom": 44
+          },
+          {
+            "id": "botbar",
+            "x": 0,
+            "y": 927,
+            "width": 768,
+            "height": 97,
+            "right": 768,
+            "bottom": 1024
+          },
+          {
+            "id": "stat-8",
+            "x": 14,
+            "y": 960.5,
+            "width": 130,
+            "height": 31,
+            "right": 144,
+            "bottom": 991.5
+          },
+          {
+            "id": "stat-9",
+            "x": 156,
+            "y": 960.5,
+            "width": 130,
+            "height": 31,
+            "right": 286,
+            "bottom": 991.5
+          },
+          {
+            "id": "stat-10",
+            "x": 298,
+            "y": 954.59375,
+            "width": 42,
+            "height": 42.796875,
+            "right": 340,
+            "bottom": 997.390625
+          },
+          {
+            "id": "stat-11",
+            "x": 352,
+            "y": 960.5,
+            "width": 138.046875,
+            "height": 31,
+            "right": 490.046875,
+            "bottom": 991.5
+          },
+          {
+            "id": "minimap-wrap",
+            "x": 502.046875,
+            "y": 936,
+            "width": 118.8125,
+            "height": 80,
+            "right": 620.859375,
+            "bottom": 1016
+          }
+        ],
+        "overlap": [],
+        "spawnBounds": [
+          {
+            "id": 0,
+            "x": 159.74906264983,
+            "y": 316.49131046384946,
+            "right": 191.27617438060832,
+            "bottom": 356.6664889532332,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 1,
+            "x": 576.6700774196815,
+            "y": 316.49131046384355,
+            "right": 608.2509373503538,
+            "bottom": 356.63273224709644,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 2,
+            "x": 134.65826961469594,
+            "y": 669.5748249941183,
+            "right": 178.33091516996467,
+            "bottom": 710.3794098406265,
+            "inside": true,
+            "hudOverlaps": []
+          },
+          {
+            "id": 3,
+            "x": 594.6200683930508,
+            "y": 664.6772068471946,
+            "right": 633.9821120745908,
+            "bottom": 711.1031734595368,
+            "inside": true,
+            "hudOverlaps": []
+          }
+        ],
+        "scrollWidth": 768,
+        "scrollHeight": 1024
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "compactions": [
+    {
+      "tokensBefore": 115781,
+      "estimatedTokensAfter": 22891,
+      "usage": {
+        "input": 51353,
+        "output": 3902,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "reasoning": 568,
+        "totalTokens": 55255,
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "tokensBefore": 116465,
+      "estimatedTokensAfter": 27173,
+      "usage": {
+        "input": 60567,
+        "output": 6360,
+        "cacheRead": 128,
+        "cacheWrite": 0,
+        "reasoning": 1519,
+        "totalTokens": 67055,
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "tokensBefore": 115358,
+      "estimatedTokensAfter": 25063,
+      "usage": {
+        "input": 41359,
+        "output": 5278,
+        "cacheRead": 128,
+        "cacheWrite": 0,
+        "reasoning": 1114,
+        "totalTokens": 46765,
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0
+        }
+      }
+    }
+  ],
+  "helperRequests": 6,
+  "helperOutputTokens": 15540,
+  "helperWallSeconds": 664.1640794589184,
+  "method": "RPC compaction_end plus helper message_count=2, usage totals cross-checked"
+}

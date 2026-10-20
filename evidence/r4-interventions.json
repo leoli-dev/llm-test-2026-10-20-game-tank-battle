@@ -1,0 +1,13 @@
+[
+  {
+    "ts": "2026-10-20T16:00:27.175654+00:00",
+    "id": "r4-hint-01",
+    "reason": "四尺寸主体通过，900px开局banner覆盖按钮；窄屏隐藏剩余敌人数",
+    "message": "独立实测新布局：1440×900、1280×800、900×1000、768×1024，战场投影不与HUD相交，四个出生坦克完整模型范围均在画布内；900×1000用独立画布投影+真实键鼠自然清场4敌（11.17s、26炮8命中、80HP2命、0错误），瞄准链路成立。两处UI细节请在自测中修正：900宽开局banner仍是absolute居中，与.tb-right相交约560平方像素（不是战场遮挡，但HUD自身覆盖）；<=1000时#info整段display:none，剩余敌数/总数与击杀等关键信息都丢了，底部只有无数字红条，应该保留简短明确的敌N/4。请用不互盖的短提示和可读数字处理，不要再改玩法/迷宫。继续你自己的宽/窄屏试玩、展开收起小地图与实际resize检查即可。"
+  },
+  {
+    "ts": "2026-10-20T16:09:23.166534+00:00",
+    "reason": "Banner false-positive repeated; raw DOMRect versus abbreviated bounds mismatch, independent layout passes. Prevent unnecessary CSS churn.",
+    "message": "你刚才的独立 debug 已显示 banner 没有交叠。请先检查 r4-layout 中 inter(a,b) 接收的矩形字段是否一致：原始 getBoundingClientRect() 的字段，与 debug 中你转换后的 l/t/r/b 对象是否一样？不要根据这个假阳性继续改正常 CSS。修好判据后继续窄/宽实际键鼠试玩、截图目视、文档及有限回归收尾；保留两次失败与定位经过。"
+  }
+]

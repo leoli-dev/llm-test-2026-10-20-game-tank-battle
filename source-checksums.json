@@ -1,0 +1,34 @@
+[
+  {
+    "path": "game/src/audio.js",
+    "sha256": "57372e91849328b1f957ef23f717f879ec9e861a13ffb69bc09eda4d90d06e06"
+  },
+  {
+    "path": "game/src/board.js",
+    "sha256": "9a568e3a5a045c45c9bfec95f8678e8a0299530c5b4cbd8ee2e6205de5906234"
+  },
+  {
+    "path": "game/src/game.js",
+    "sha256": "35980a7d67e5444e7fa889bcadafd6b02ba3fdad9094b5f5b2d5bfb4014793b7"
+  },
+  {
+    "path": "game/src/level.js",
+    "sha256": "2b9ca2857040faf6bdede057e8436897f6eae316fbe1209ddb1f4c0659388f0b"
+  },
+  {
+    "path": "game/src/main.js",
+    "sha256": "c13289daee995ef90cef4f1222fb4643cb6ac1a3174d041464a67548b5d46bf4"
+  },
+  {
+    "path": "game/src/scene.js",
+    "sha256": "21273d4dd0ac0df77e5d380c9ed015037b7925c78cf00370cb0cbbfb75ba3114"
+  },
+  {
+    "path": "game/src/tank.js",
+    "sha256": "8199030865513d865c3b2e7fa765ff6108b7e296cce026d4d4a27a45acdb52d9"
+  },
+  {
+    "path": "game/src/textures.js",
+    "sha256": "baa7bb92eaace711c5cb63ca84f71260ffaa96cdde39d34adc59f35114ba4d14"
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "sessions": [
+    {
+      "stalls": 0,
+      "session": 1,
+      "result": "胜利",
+      "kills": 4,
+      "enemiesLeft": 0,
+      "lives": 2,
+      "hp": 90,
+      "score": 925,
+      "bricksBroken": 5,
+      "shots": 20,
+      "hits": 8,
+      "hitsOnPlayer": 1,
+      "durationS": 7.6,
+      "gameTimeS": 9.5,
+      "noAutoAfterOver": true,
+      "worldAdvanced": true
+    },
+    {
+      "stalls": 0,
+      "session": 2,
+      "result": "胜利",
+      "kills": 4,
+      "enemiesLeft": 0,
+      "lives": 2,
+      "hp": 90,
+      "score": 930,
+      "bricksBroken": 6,
+      "shots": 21,
+      "hits": 8,
+      "hitsOnPlayer": 1,
+      "durationS": 7.7,
+      "gameTimeS": 9.4,
+      "noAutoAfterOver": true,
+      "worldAdvanced": true
+    },
+    {
+      "stalls": 0,
+      "session": 3,
+      "result": "胜利",
+      "kills": 4,
+      "enemiesLeft": 0,
+      "lives": 2,
+      "hp": 80,
+      "score": 925,
+      "bricksBroken": 5,
+      "shots": 21,
+      "hits": 8,
+      "hitsOnPlayer": 2,
+      "durationS": 7.7,
+      "gameTimeS": 9.4,
+      "noAutoAfterOver": true,
+      "worldAdvanced": true
+    }
+  ],
+  "pageErrors": []
+}

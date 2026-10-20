@@ -1,0 +1,92 @@
+{
+  "engine": {
+    "project": "https://github.com/DT-HJ/my-little-trie-forge",
+    "legacy_remote": "https://github.com/hojin12312/my-little-trie-forge",
+    "version": "0.1.2",
+    "local_source_commit": "873d5574d903f5c1685e286c9cd59b79475a49f6",
+    "runtime_build_id": "src-ddca31101abcdea9199c6c79a27b2d329509c06b66d69af627725212bf53a4c6",
+    "release_profile": {
+      "version": "0.1.2",
+      "maximum_physical_width": 4,
+      "target": "q8c",
+      "prefill": "W8A8",
+      "decode_verify": "W8A16",
+      "algorithm": "DFlash2",
+      "kv": "INT8",
+      "numerical": "split2-rounded",
+      "cost_cap": "disabled",
+      "b5_bundle": "unreachable_above_width4",
+      "ssd": "opt-in",
+      "canonical_burst": "opt-in"
+    }
+  },
+  "model": {
+    "repo": "https://huggingface.co/Ho-Jin-93/Qwen3.8-27B-MLTF-q8c",
+    "revision": "524209960111b8c6a3d79f7c68a6f04c0a6dca91",
+    "manifest_sha256": "e2c7919947a1784b18bf67323de786e500e53d1e47798aede1c38667c388760e",
+    "artifact_set_sha256": "2d5414df4eac12ad1e9dbd5ab770a650f5e418782c4a5c523e8d3ff2155f5f95",
+    "artifact_count": 78,
+    "artifact_bytes": 30848996049,
+    "format": {
+      "draft_layer_magic": "MDFD0004",
+      "name": "splash-packed-q8c",
+      "q8_bits": 8,
+      "q8_group_size": 64,
+      "q8_parameters": "bf16-scale-zero",
+      "q8_storage_n": 256,
+      "section_alignment_bytes": 16384,
+      "target_layer_magic": "MDFL0006",
+      "vision_magic": "MDFV0001"
+    },
+    "execution_geometry": {
+      "allocation_extent_target_bytes": 134217728,
+      "attention_history_group": 128,
+      "draft_proposal_tokens": 7,
+      "draft_query_rows": 8,
+      "draft_sliding_window": 2048,
+      "maximum_batch_width": 4,
+      "prefill_token_budget": 2048,
+      "target_kv_block_tokens": 32,
+      "target_verify_rows": 8
+    },
+    "upstream": {
+      "draft": {
+        "repo_id": "incoai/Qwen3.8-27B-DFlash2",
+        "revision": "dedf8df68adfb1afeaf7b7480c0a0243108177b4"
+      },
+      "target": "mlx-community/Qwen3.8-27B-8bit @ 815b83c0df8ffd1d1b5244cf75fd6ef14fca9ef9",
+      "template_package": "incoai/Qwen3.8-27B-Splash @ 9d27070b71f7142c6b6025f03ac011d70a73cb48",
+      "tokenizer": {
+        "repo_id": "mlx-community/Qwen3.8-27B-4bit",
+        "revision": "3e6447f082e89cc7f0bc6e5441afd38dfce760ff"
+      },
+      "vision": {
+        "repo_id": "mlx-community/Qwen3.8-27B-4bit",
+        "revision": "3e6447f082e89cc7f0bc6e5441afd38dfce760ff"
+      }
+    }
+  },
+  "runtime_identity_build": {
+    "q8_prefill_activation": "a8",
+    "q8_prefill_stagepage": false,
+    "q8_prefill_stage_parameters": false,
+    "q8_prefill_direct_single_split": false,
+    "q8_split2_m32_safem16": false,
+    "q8_split2_m32_sg16": true,
+    "paired_long_prefill": true,
+    "canonical_long_prefill": false,
+    "canonical_minimum_tokens": 131072,
+    "canonical_decode_burst": false,
+    "decode_boundary_retention": false,
+    "decode_boundary_ready_only": false,
+    "q8_residual_decode_policy": "split2-rounded"
+  },
+  "runtime_kv": {
+    "target_model_sha256": "f727c6545f22dbfabdd5dcd65fa0735befdddcccfc207fbdae4a480d3594fd3f",
+    "format": "int8",
+    "quantization": "symmetric_int8",
+    "scale_type": "float32",
+    "key_layout": "token_major",
+    "value_layout": "dimension_major"
+  }
+}

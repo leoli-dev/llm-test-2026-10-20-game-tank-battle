@@ -1,0 +1,76 @@
+{
+  "ts": "2026-10-20T12:22:46.570Z",
+  "before": {
+    "info": {
+      "state": "playing",
+      "phase": "fight",
+      "level": 1,
+      "levelName": "训练场",
+      "score": 0,
+      "kills": 0,
+      "lives": 3,
+      "bricksBroken": 0,
+      "playerHp": 100,
+      "playerDead": false,
+      "baseHp": 6,
+      "enemies": 0,
+      "toSpawn": 8,
+      "totalEnemies": 8,
+      "shotsFired": 0,
+      "hitsOnEnemies": 0,
+      "hitsOnPlayer": 0,
+      "playerPos": [
+        26,
+        50
+      ],
+      "audioUnlocked": true,
+      "audioRunning": "running",
+      "muted": false,
+      "board": 0
+    },
+    "overheat": 0,
+    "tiles": 23,
+    "meshCount": 23
+  },
+  "after": {
+    "info": {
+      "state": "playing",
+      "phase": "fight",
+      "level": 1,
+      "levelName": "训练场",
+      "score": 10,
+      "kills": 0,
+      "lives": 3,
+      "bricksBroken": 2,
+      "playerHp": 100,
+      "playerDead": false,
+      "baseHp": 6,
+      "enemies": 0,
+      "toSpawn": 8,
+      "totalEnemies": 8,
+      "shotsFired": 6,
+      "hitsOnEnemies": 0,
+      "hitsOnPlayer": 0,
+      "playerPos": [
+        26,
+        50
+      ],
+      "audioUnlocked": true,
+      "audioRunning": "running",
+      "muted": false,
+      "board": 0
+    },
+    "cell": null,
+    "barrelBulletDot": 1,
+    "camera": [
+      26,
+      34,
+      63
+    ],
+    "tileMeshes": 21
+  },
+  "errors": {
+    "count": 0,
+    "unique": []
+  }
+}

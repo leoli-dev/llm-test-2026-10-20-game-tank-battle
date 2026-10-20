@@ -1,0 +1,23 @@
+[
+  {
+    "ts": "2026-10-20T04:53:32.441140+00:00",
+    "id": 1,
+    "reason": "测试脚本选用 Chrome for Testing 名称的缓存可执行文件，且关闭 autoplay 限制，无法代表默认浏览器音频验收。",
+    "message": "监督提示（仅测试环境）：请把浏览器明确切到 /Applications/Chromium.app/Contents/MacOS/Chromium，遵守用户要求只用 Chromium。另请至少有一轮保留默认 autoplay 限制，不要用 --autoplay-policy=no-user-gesture-required 来证明用户手势解锁成功；用真实点击后观察音频运行即可。继续自主排查测试结果。",
+    "scope": "browser test methodology; no game source edits"
+  },
+  {
+    "ts": "2026-10-20T05:00:50.058729+00:00",
+    "id": 2,
+    "reason": "三轮击杀验证失败；独立真实按键复现转向后炮管世界方向与弹道相差约76度，pi仍主要调整测试等待/目标。",
+    "message": "监督提示：击杀测试已连续失败，独立复现发现车体未转时炮管/发射方向一致，按 D 转向约 76° 后两者也相差约 76°。建议检查炮塔的局部旋转、炮口世界位置与弹道方向是否使用一致的坐标系。请自己定位、修复并补转向后的实测。",
+    "scope": "directional debugging hint; no code or edits"
+  },
+  {
+    "ts": "2026-10-20T05:05:21.479051+00:00",
+    "id": 3,
+    "reason": "独立边界夹具+真实UI复现清波暂停后停止刷兵、旧延时回调污染新局。",
+    "message": "监督补充复现：在清空一波后的等待下一波阶段按 P，等 3 秒再继续，会停在 wave=1、enemies=0、toSpawn=0；同一等待阶段暂停后点重新开始，旧回调会把新局从 wave 1 跳到 wave 2。建议检查波次/胜利延时的暂停语义和重开时旧任务的生命周期，并自行补边界测试。复现用现有击杀逻辑建立清波状态，再用真实 UI 暂停/重开。",
+    "scope": "observed state lifecycle defect and direction only; no code edits"
+  }
+]
